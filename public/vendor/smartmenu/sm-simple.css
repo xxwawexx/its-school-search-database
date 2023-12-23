@@ -1,0 +1,377 @@
+.mnav-wrapper
+{
+    line-height: 0;
+}
+
+.sm-simple ul a,
+.sm-simple ul a:hover,
+.sm-simple ul a:focus,
+.sm-simple ul a:active {
+    padding: 11px 26px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #fff
+}
+
+.sm-simple a.current {
+    background: #555;
+    color: #fff
+}
+
+.sm-simple a.disabled {
+    color: #ccc
+}
+
+.sm-simple a .sub-arrow {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: auto;
+    right: 4px;
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    font: bold 14px/34px monospace!important;
+    text-align: center;
+    text-shadow: none;
+    background: rgba(0, 0, 0, .08);
+    pointer-events: none;
+}
+
+.sm-simple li ul a .sub-arrow::after {
+    content: "\f0da";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900
+}
+
+.sm-simple li ul a.highlighted .sub-arrow::after {
+    content: "\f0d7";
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900
+}
+
+.sm-simple li {
+    border-top: 1px solid #33abd8
+}
+
+.sm-simple>li:first-child {
+    border-top: 0
+}
+
+.sm-simple ul {
+    background: rgba(179, 179, 179, .2)
+}
+
+.sm-simple ul a,
+.sm-simple ul a:hover,
+.sm-simple ul a:focus,
+.sm-simple ul a:active {
+    font-size: 14px;
+    border-left: 8px solid transparent
+}
+
+.sm-simple ul ul a,
+.sm-simple ul ul a:hover,
+.sm-simple ul ul a:focus,
+.sm-simple ul ul a:active {
+    border-left: 16px solid transparent
+}
+
+.sm-simple ul ul ul a,
+.sm-simple ul ul ul a:hover,
+.sm-simple ul ul ul a:focus,
+.sm-simple ul ul ul a:active {
+    border-left: 24px solid transparent
+}
+
+.sm-simple ul ul ul ul a,
+.sm-simple ul ul ul ul a:hover,
+.sm-simple ul ul ul ul a:focus,
+.sm-simple ul ul ul ul a:active {
+    border-left: 32px solid transparent
+}
+
+.sm-simple ul ul ul ul ul a,
+.sm-simple ul ul ul ul ul a:hover,
+.sm-simple ul ul ul ul ul a:focus,
+.sm-simple ul ul ul ul ul a:active {
+    border-left: 40px solid transparent
+}
+
+@media(min-width:768px) {
+    .sm-simple a,
+    .sm-simple a:hover,
+    .sm-simple a:focus,
+    .sm-simple a:active {
+        padding: 3px 26px
+    }
+    .sm-simple ul {
+        position: absolute;
+        width: 12em
+    }
+    .sm-simple li {
+        float: left
+    }
+    .sm-simple li:not(:last-child) {
+        border-right: 1px solid #249cda
+    }
+    .sm-simple.sm-rtl li {
+        float: right
+    }
+    .sm-simple ul li,
+    .sm-simple.sm-rtl ul li,
+    .sm-simple.sm-vertical li {
+        float: none
+    }
+    .sm-simple a {
+        white-space: nowrap
+    }
+    .sm-simple ul a,
+    .sm-simple.sm-vertical a {
+        white-space: normal
+    }
+    .sm-simple .sm-nowrap>li>a,
+    .sm-simple .sm-nowrap>li>:not(ul) a {
+        white-space: nowrap;
+        transition: .3s
+    }
+    .sm-simple a,
+    .sm-simple a:hover,
+    .sm-simple a:focus,
+    .sm-simple a:active,
+    .sm-simple a.highlighted {
+        color: #fff
+    }
+    .sm-simple ul li a:hover,
+    .sm-simple ul li a:focus,
+    .sm-simple ul li a:active {
+        background: #00a3e1;
+        transition: .3s
+    }
+    .sm-simple a.highlighted {
+        background: #00a3e1;
+        transition: 1s
+    }
+    .sm-simple a.current {
+        background: #555;
+        color: #fff
+    }
+    .sm-simple a.disabled {
+        color: #ccc
+    }
+    .sm-simple a .sub-arrow {
+        top: 50%;
+        margin-top: -8px;
+        right: 20px;
+        width: 13px;
+        height: 16px;
+        font: 14px/16px monospace!important;
+        background: 0 0
+    }
+    .sm-simple>li {
+        border-top: 0
+    }
+    .sm-simple>li:first-child {
+        border-left: 0
+    }
+    .sm-simple ul {
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+        background: #fff
+    }
+    .sm-simple ul a {
+        border: 0!important;
+        color: #000
+    }
+    .sm-simple ul a.has-submenu {
+        padding-right: 30px
+    }
+    .sm-simple ul a .sub-arrow {
+        right: 8px;
+        left: auto
+    }
+    .sm-simple ul>li {
+        border-right: none;
+        border-top: none;
+        border-left: 4px solid #0092c8;
+        border-bottom: 1px solid #eaeaea
+    }
+    .sm-simple ul>li:first-child {
+        border-top: 0
+    }
+    .sm-simple .scroll-up,
+    .sm-simple .scroll-down {
+        position: absolute;
+        display: none;
+        visibility: hidden;
+        overflow: hidden;
+        height: 20px
+    }
+    .sm-simple .scroll-up-arrow,
+    .sm-simple .scroll-down-arrow {
+        position: absolute;
+        top: -2px;
+        left: 50%;
+        margin-left: -8px;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        border-width: 8px;
+        border-style: dashed dashed solid dashed;
+        border-color: transparent transparent #555 transparent
+    }
+    .sm-simple .scroll-down-arrow {
+        top: 6px;
+        border-style: solid dashed dashed dashed;
+        border-color: #555 transparent transparent transparent
+    }
+    .sm-simple.sm-rtl a.has-submenu {
+        padding-right: 20px;
+        padding-left: 32px
+    }
+    .sm-simple.sm-rtl a .sub-arrow {
+        left: 20px;
+        right: auto
+    }
+    .sm-simple.sm-rtl.sm-vertical a.has-submenu {
+        padding: 11px 20px
+    }
+    .sm-simple.sm-rtl.sm-vertical a .sub-arrow {
+        left: auto;
+        right: 8px
+    }
+    .sm-simple.sm-rtl>li:first-child {
+        border-left: 1px solid #eee
+    }
+    .sm-simple.sm-rtl>li:last-child {
+        border-left: 0
+    }
+    .sm-simple.sm-rtl ul a.has-submenu {
+        padding: 11px 20px
+    }
+    .sm-simple.sm-rtl ul a .sub-arrow {
+        left: auto;
+        right: 8px
+    }
+    .sm-simple.sm-vertical a .sub-arrow {
+        left: 8px;
+        right: auto
+    }
+    .sm-simple.sm-vertical li {
+        border-left: 0;
+        border-top: 1px solid #eee
+    }
+    .sm-simple.sm-vertical>li:first-child {
+        border-top: 0
+    }
+}
+
+.mob-menu {
+    display: none;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 20px;
+    background: #0092c8;
+    background: -webkit-linear-gradient(to bottom, #0092c8, #12579a);
+    background: linear-gradient(to bottom, #0092c8, #12579a)
+}
+
+.stage {
+    text-align: center;
+    flex-grow: 1;
+    margin: 20px
+}
+
+.burger {
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+    float: right
+}
+
+.burger:hover {
+    cursor: pointer
+}
+
+.bar {
+    height: 4px;
+    width: 100%;
+    background: #a9a9a9;
+    transition: all .3s ease-in-out;
+    margin: 3px 0;
+    border-radius: 20px
+}
+
+.multiply.active .bar:first-child {
+    transform: translateY(7px) rotate(-45deg)
+}
+
+.multiply.active .bar:last-child {
+    transform: translateY(-7px) rotate(45deg)
+}
+
+.multiply.active .bar:nth-child(2) {
+    transform: rotate(180deg);
+    opacity: 0
+}
+
+@media(max-width:768px) {
+    .sm-simple a,
+    .sm-simple a:hover,
+    .sm-simple a:focus,
+    .sm-simple a:active {
+        padding: 11px 26px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 17px;
+        color: #fff
+    }
+    .mob-menu {
+        display: inherit
+    }
+    #main-menu {
+        display: none;
+        background: #0088CC;
+    }
+    .sm-simple a .sub-arrow::after {
+        content: "\f0da";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900
+    }
+    .sm-simple a.highlighted .sub-arrow::after {
+        content: "\f0d7";
+        display: inline-block;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900
+    }
+}
+
+@media(min-width:768px) {
+    #main-nav {
+        line-height: 0;
+        text-align: center
+    }
+    #main-menu {
+        display: inline-block!important
+    }
+    .mnav-wrapper {
+        text-align: center;
+        background: #0088CC;
+        padding: 8px 0;
+    }
+    .sm-simple li ul a .sub-arrow::after {
+        color: #d6d6d6
+    }
+    .fm-sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 99999
+    }
+}
