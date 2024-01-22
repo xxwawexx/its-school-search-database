@@ -1,5 +1,6 @@
 @php
-    $isSchoolSubPath = strpos(url()->current(), 'itseducation.asia/school') !== false;
+    $isSchoolSubPath = request()->header('X-Test-Header') === 'ssdb';
+
     $imageUrlBase = $isSchoolSubPath ? '/school/img/' : '/img/';
     $urlBase = $isSchoolSubPath ? '/school' : '';
 @endphp
