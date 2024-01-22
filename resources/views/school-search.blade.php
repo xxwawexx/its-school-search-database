@@ -307,7 +307,7 @@
                                                     aria-hidden="true"></i></a></div>
                                     </div>
 
-                                    <a href="{{ $urlBase }}school-profile/{{ $sc->slug }}" class="text-decoration-none">
+                                    <a href="{{ $urlBase }}/school-profile/{{ $sc->slug }}" class="text-decoration-none">
                                         <div
                                             class="thumb-info-price bg-color-primary text-color-light text-1 p-2 pl-3 pr-4">
                                             {{ $sc->type && is_array(json_decode($sc->type)) ? implode(", ", json_decode($sc->type)) : '' }}
