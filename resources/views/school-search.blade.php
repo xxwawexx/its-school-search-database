@@ -331,8 +331,6 @@
                         function adjustPaginationUrl($url, $isSchoolSubPath) {
                             $parsedUrl = parse_url($url);
 
-                            var_dump($parsedUrl);
-
                             $scheme = $parsedUrl['scheme'] . '://';
                             $host = $parsedUrl['host'];
                             $port = isset($parsedUrl['port']) ? ':' . $parsedUrl['port'] : '';
