@@ -337,8 +337,8 @@
                             $host = $parsedUrl['host'];
                             $port = isset($parsedUrl['port']) ? ':' . $parsedUrl['port'] : '';
 
-                            if ($isSchoolSubPath && !str_contains($host, 'school.')) {
-                                $host = 'school.' . $host;
+                            if ($isSchoolSubPath && str_contains($host, 'school.')) {
+                                $host = 'itseducation.asia/school';
                             }
 
                             return $scheme . $host . $port . $parsedUrl['path'] . (isset($parsedUrl['query']) ? '?' . $parsedUrl['query'] : '');
