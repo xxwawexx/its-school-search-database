@@ -330,26 +330,18 @@
                     @php
                         function adjustPaginationUrl($url, $isSchoolSubPath) {
                             $parsedUrl = parse_url($url);
+
+                            var_dump($parsedUrl);
+
                             $scheme = $parsedUrl['scheme'] . '://';
                             $host = $parsedUrl['host'];
-                            $port = isset($parsedUrl['port']) ? ':' . $parsedUrl['port'] : ''; // Include port if available
+                            $port = isset($parsedUrl['port']) ? ':' . $parsedUrl['port'] : '';
 
-                            // Adjust the host and path based on $isSchoolSubPath
-                            if ($isSchoolSubPath) {
-                                // Check if the current host is not already the 'school' subdomain
-                                if (!str_contains($host, 'school.itseducation.asia')) {
-                                    $host = 'school.' . $host; // Prepend 'school.' to the host
-                                }
-                                if (!str_contains($parsedUrl['path'], '/school/')) {
-                                    $path = '/school' . $parsedUrl['path']; // Prepend '/school' to the path
-                                } else {
-                                    $path = $parsedUrl['path'];
-                                }
-                            } else {
-                                $path = $parsedUrl['path'];
+                            if ($isSchoolSubPath && !str_contains($host, 'school.')) {
+                                $host = 'school.' . $host;
                             }
 
-                            return $scheme . $host . $port . $path . (isset($parsedUrl['query']) ? '?' . $parsedUrl['query'] : '');
+                            return $scheme . $host . $port . $parsedUrl['path'] . (isset($parsedUrl['query']) ? '?' . $parsedUrl['query'] : '');
                         }
                     @endphp
 
