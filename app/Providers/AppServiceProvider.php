@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
         View::composer('*', function ($view) {
             $isSchoolSubPath = request()->header('X-Test-Header') === 'ssdb';
             $imageUrlBase = $isSchoolSubPath ? '/school/img/' : '/img/';
-            $urlBase = $isSchoolSubPath ? '/school' : '/';
+            $urlBase = $isSchoolSubPath ? '/school/' : '/';
 
             $view->with(compact('isSchoolSubPath', 'imageUrlBase', 'urlBase'));
         });
