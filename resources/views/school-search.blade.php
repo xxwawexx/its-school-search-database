@@ -325,40 +325,6 @@
 
                 </div>
 
-                {{-- Pagination Links --}}
-                <ul class="pagination float-right mt-5">
-                    {{-- Determine the base link --}}
-                    @php
-                        $baseLink = $isSchoolSubPath ? url('/school') : url('');
-                        $queryParams = request()->except('page');
-                        $fullPageLink = function($page) use ($baseLink, $queryParams) {
-                            return $baseLink . '?page=' . $page . '&' . http_build_query($queryParams);
-                        };
-                    @endphp
-
-                    {{-- Previous Page Link --}}
-                    @if ($schools->onFirstPage())
-                        <li class="page-item disabled"><span class="page-link">&laquo;</span></li>
-                    @else
-                        <li class="page-item"><a class="page-link" href="{{ $fullPageLink($schools->currentPage() - 1) }}">&laquo;</a></li>
-                    @endif
-
-                    {{-- Page Number Links --}}
-                    @for ($i = 1; $i <= $schools->lastPage(); $i++)
-                        <li class="page-item {{ $i == $schools->currentPage() ? 'active' : '' }}">
-                            <a class="page-link" href="{{ $fullPageLink($i) }}">{{ $i }}</a>
-                        </li>
-                    @endfor
-
-                    {{-- Next Page Link --}}
-                    @if ($schools->hasMorePages())
-                        <li class="page-item"><a class="page-link" href="{{ $fullPageLink($schools->currentPage() + 1) }}">&raquo;</a></li>
-                    @else
-                        <li class="page-item disabled"><span class="page-link">&raquo;</span></li>
-                    @endif
-                </ul>
-
-
                 <ul class="pagination float-right mt-5">
 
                     @if ($schools->currentPage() - 1 != 0)
@@ -386,7 +352,6 @@
                     @endif
 
                 </ul>
-
 
 
             </div>
