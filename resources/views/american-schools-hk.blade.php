@@ -76,7 +76,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/AG6cn8nfonppXYGp-primary.jpg); background-size: cover; background-position: center center;" alt="American International School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/AG6cn8nfonppXYGp-primary.jpg); background-size: cover; background-position: center center;" alt="American International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/American+International+School" class="btn btn-primary s-btn">American International School </a></p>
@@ -87,7 +87,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/N5m6f17b90cFrBd9-primary.jpg); background-size: cover; background-position: center center;" alt="The Harbour School - Upper Primary">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/N5m6f17b90cFrBd9-primary.jpg); background-size: cover; background-position: center center;" alt="The Harbour School - Upper Primary">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/The+Harbour+School+-+Upper+Primary" class="btn btn-primary s-btn">The Harbour School - Upper Primary</a></p>
@@ -97,7 +97,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/ToQkvYLqdLwaLP9l-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - Lower Primary">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/ToQkvYLqdLwaLP9l-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - Lower Primary">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hong+Kong+International+School+-+Lower+Primary" class="btn btn-primary s-btn">Hong Kong International School - Lower Primary</a></p>
@@ -107,7 +107,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/zHAbwcDuuxmg2COB-primary.jpg); background-size: cover; background-position: center center;" alt="The Harbour School - Primary">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/zHAbwcDuuxmg2COB-primary.jpg); background-size: cover; background-position: center center;" alt="The Harbour School - Primary">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/The+Harbour+School+-+Primary" class="btn btn-primary s-btn">The Harbour School - Primary</a></p>
@@ -117,7 +117,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/american-school-hk-primary.jpg); background-size: cover; background-position: center center;" alt="American School Hong Kong ">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/american-school-hk-primary.jpg); background-size: cover; background-position: center center;" alt="American School Hong Kong ">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/American+School+Hong+Kong" class="btn btn-primary s-btn">American School Hong Kong </a></p>
@@ -127,7 +127,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/WxGAxeyY3EhTxeno-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - Middle School Tai Tam Campus">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/WxGAxeyY3EhTxeno-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - Middle School Tai Tam Campus">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hong+Kong+International+School+-+Middle+School+Tai+Tam+Campus" class="btn btn-primary s-btn">Hong Kong International School - Middle School Tai Tam Campus</a></p>
@@ -137,7 +137,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/GaHbX742uMJTnG0p-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - Upper Primary">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/GaHbX742uMJTnG0p-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - Upper Primary">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hong+Kong+International+School+-+Upper+Primary" class="btn btn-primary s-btn">Hong Kong International School - Upper Primary</a></p>
@@ -147,7 +147,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/7f46PLK4bW9ks8Gw-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - High School Tai Tam Campus">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/7f46PLK4bW9ks8Gw-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong International School - High School Tai Tam Campus">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hong+Kong+International+School+-+High+School+Tai+Tam+Campus" class="btn btn-primary s-btn">Hong Kong International School - High School Tai Tam Campus</a></p>
@@ -157,7 +157,7 @@
                             </div>
 
                             <div class="outer-box mx-auto my-2">
-                                <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/qbQb4ykD0CS2jRwD-primary.jpg); background-size: cover; background-position: center center;" alt="Stamford American School">
+                                <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/qbQb4ykD0CS2jRwD-primary.jpg); background-size: cover; background-position: center center;" alt="Stamford American School">
                                     <div class="content-wrap">
                                         <div class="sub-content-wrap">
                                             <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Stamford+American+School" class="btn btn-primary s-btn">Stamford American School</a></p>

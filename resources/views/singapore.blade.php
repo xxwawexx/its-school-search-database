@@ -20,11 +20,7 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                <a href="https://school.itseducation.asia/">Home</a>
-                            @else
-                                <a href="https://itseducation.asia/school/">Home</a>
-                            @endif
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
                             <li class="active">Singapore Schools</li>
                         </ul>
@@ -42,14 +38,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/3BauZBVLKtctP2Hs-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/3BauZBVLKtctP2Hs-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/international-schools-sg/anglo-chinese-schools-sg" class="btn btn-primary s-btn">Anglo Chinese International Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/international-schools-sg/anglo-chinese-schools-sg" class="btn btn-primary s-btn">Anglo Chinese International Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -58,14 +50,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/TecKru0GTlwRsQ7D-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/TecKru0GTlwRsQ7D-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/international-schools-sg" class="btn btn-primary s-btn">International Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/international-schools-sg" class="btn btn-primary s-btn">International Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -74,14 +62,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/2CkdxSlDvrwWvruV-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/2CkdxSlDvrwWvruV-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/special-schools-sg" class="btn btn-primary s-btn">Special Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/special-schools-sg" class="btn btn-primary s-btn">Special Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -90,14 +74,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/SDRy6a34Jx3GtsAU-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/SDRy6a34Jx3GtsAU-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/private-schools-sg" class="btn btn-primary s-btn">Private Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/private-schools-sg" class="btn btn-primary s-btn">Private Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -106,14 +86,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/pzWpnv9f6V3vUBW2-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/pzWpnv9f6V3vUBW2-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/primary-schools-sg" class="btn btn-primary s-btn">Primary Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/primary-schools-sg" class="btn btn-primary s-btn">Primary Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -122,14 +98,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/RlE6VwWmA83B7JvD-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/RlE6VwWmA83B7JvD-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/secondary-schools-sg" class="btn btn-primary s-btn">Secondary Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/secondary-schools-sg" class="btn btn-primary s-btn">Secondary Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -138,14 +110,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/DRY4Q9q076igbx6T-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/DRY4Q9q076igbx6T-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/international-schools-sg/british-schools-sg" class="btn btn-primary s-btn">British International Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/international-schools-sg/british-schools-sg" class="btn btn-primary s-btn">British International Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -154,14 +122,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/k1R3CzxPWz9H4fMs-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/k1R3CzxPWz9H4fMs-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/german-schools-sg" class="btn btn-primary s-btn">German language Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/german-schools-sg" class="btn btn-primary s-btn">German language Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -170,14 +134,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/kaO1gXRu6NBCGZgD-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/kaO1gXRu6NBCGZgD-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/international-schools-sg/iB-schools-sg" class="btn btn-primary s-btn">International Baccalaureate (IB) Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/international-schools-sg/iB-schools-sg" class="btn btn-primary s-btn">International Baccalaureate (IB) Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -186,14 +146,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/RlE6VwWmA83B7JvD-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/RlE6VwWmA83B7JvD-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/independent-schools-sg" class="btn btn-primary s-btn">Independent Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/independent-schools-sg" class="btn btn-primary s-btn">Independent Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -202,14 +158,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Uo0O5HAtmbdhD8rw-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/Uo0O5HAtmbdhD8rw-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/international-schools-sg/indian-schools-sg" class="btn btn-primary s-btn">Indian International Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/international-schools-sg/indian-schools-sg" class="btn btn-primary s-btn">Indian International Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -218,14 +170,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/ics_sg_pr.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/ics_sg_pr.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/international-schools-sg/american-schools-sg" class="btn btn-primary s-btn">American International Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/international-schools-sg/american-schools-sg" class="btn btn-primary s-btn">American International Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -234,14 +182,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/MasXuQAnDdJHZ3bk-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/MasXuQAnDdJHZ3bk-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/a-level-schools-sg" class="btn btn-primary s-btn">GCE A Level Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/a-level-schools-sg" class="btn btn-primary s-btn">GCE A Level Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -250,14 +194,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/9WRvMnSEXipmg4t9-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/9WRvMnSEXipmg4t9-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/boarding-schools-sg" class="btn btn-primary s-btn">Boarding Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/boarding-schools-sg" class="btn btn-primary s-btn">Boarding Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -266,14 +206,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Jk4n1dRGVQHFE1cL-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/Jk4n1dRGVQHFE1cL-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/ip-schools-sg" class="btn btn-primary s-btn">Integrated Programme (IP) Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/ip-schools-sg" class="btn btn-primary s-btn">Integrated Programme (IP) Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -282,14 +218,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/B0XYnWE4vE1VRcfg-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/B0XYnWE4vE1VRcfg-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/international-schools-sg/ipc-schools-sg" class="btn btn-primary s-btn">International Primary Curriculum (IPC) Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/international-schools-sg/ipc-schools-sg" class="btn btn-primary s-btn">International Primary Curriculum (IPC) Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -298,21 +230,17 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/KPUi4w941Xff3q2m-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/KPUi4w941Xff3q2m-primary.jpg); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/singapore/moe-schools-sg" class="btn btn-primary s-btn">Ministry of Education (MOE) Schools in Singapore</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/singapore/moe-schools-sg" class="btn btn-primary s-btn">Ministry of Education (MOE) Schools in Singapore</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            
+
                         </div>
                     </section>
                 </div>
@@ -336,7 +264,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -355,7 +283,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -388,15 +316,15 @@
                         </a>
 
                         <hr>
-                        
-                        <a href="https://school.itseducation.asia/">
+
+                        <a href="https://itseducation.asia/school">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -442,11 +370,11 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
 
     <style>
         /* landing page */
@@ -480,7 +408,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;
@@ -621,10 +549,10 @@
 
 @section('local-scripts')
 
-    <script src="/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 @endsection

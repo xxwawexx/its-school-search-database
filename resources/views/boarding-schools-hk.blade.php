@@ -19,18 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/boarding-schools-hk")
-                                <a href="https://school.itseducation.asia/">Home</a>
-                            @else
-                                <a href="https://itseducation.asia/school/">Home</a>
-                            @endif
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
 
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/boarding-schools-hk")
-                                <li><a href="https://school.itseducation.asia/hong-kong">Hong Kong</a></li>
-                            @else
-                                <li><a href="https://itseducation.asia/school/hong-kong">Hong Kong</a></li>
-                            @endif
+                            <li><a href="{{ $urlBase }}hong-kong">Hong Kong</a></li>
 
                             <li class="active">Boarding Schools in Hong Kong</li>
                         </ul>
@@ -51,7 +43,7 @@
                     <p>
                         Boarding schools offer numerous advantages for students. One key benefit is the opportunity for personal growth. Living away from home at a young age fosters independence and self-reliance, allowing students to develop important life skills such as time management and problem-solving. Moreover, attending a boarding school provides an immersive learning environment where students can fully engage with their studies without distractions.
                     </p>
-                    
+
                     <h2>
                         List of Top Boarding Schools in Hong Kong
                     </h2>
@@ -84,14 +76,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/wNwcXEm1Vg938Ggi-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong Adventist Academy - Day and Boarding">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/wNwcXEm1Vg938Ggi-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong Adventist Academy - Day and Boarding">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/primary-schools-hk")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Hong+Kong+Adventist+Academy+-+Day+and+Boarding" class="btn btn-primary s-btn">Hong Kong Adventist Academy - Day and Boarding</a></p>
-                                            @else
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hong+Kong+Adventist+Academy+-+Day+and+Boarding" class="btn btn-primary s-btn">Hong Kong Adventist Academy - Day and Boarding</a></p>
-                                            @endif
                                             </div>
                                         </div>
                                     </div>
@@ -120,7 +108,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -139,7 +127,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -172,15 +160,15 @@
                         </a>
 
                         <hr>
-                        
-                        <a href="https://school.itseducation.asia/">
+
+                        <a href="https://itseducation.asia/school">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -226,11 +214,11 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
 
     <style>
         /* landing page */
@@ -264,7 +252,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;
@@ -405,10 +393,10 @@
 
 @section('local-scripts')
 
-    <script src="/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 @endsection

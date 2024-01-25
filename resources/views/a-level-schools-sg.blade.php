@@ -60,7 +60,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/MasXuQAnDdJHZ3bk-primary.jpg); background-size: cover; background-position: center center;" alt="Tanglin Trust School Singapore ">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/MasXuQAnDdJHZ3bk-primary.jpg); background-size: cover; background-position: center center;" alt="Tanglin Trust School Singapore ">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Tanglin+Trust+School+Singapore" class="btn btn-primary s-btn">Tanglin Trust School Singapore </a></p>
@@ -72,7 +72,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Jk4n1dRGVQHFE1cL-primary.jpg); background-size: cover; background-position: center center;" alt="Tanglin Trust School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/Jk4n1dRGVQHFE1cL-primary.jpg); background-size: cover; background-position: center center;" alt="Tanglin Trust School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Tanglin+Trust+School" class="btn btn-primary s-btn">Tanglin Trust School</a></p>
@@ -84,7 +84,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/p2wKV6M4XATWt6Ud-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus International School - Dempsey Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/p2wKV6M4XATWt6Ud-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus International School - Dempsey Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Invictus+International+School+-+Dempsey+Campus" class="btn btn-primary s-btn">Invictus International School - Dempsey Campus</a></p>
@@ -96,7 +96,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/UpQDLmTyS9smppFC-primary.jpg); background-size: cover; background-position: center center;" alt="Insworld Institute">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/UpQDLmTyS9smppFC-primary.jpg); background-size: cover; background-position: center center;" alt="Insworld Institute">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Insworld+Institute" class="btn btn-primary s-btn">Insworld Institute</a></p>
