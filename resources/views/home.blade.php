@@ -1,10 +1,3 @@
-@php
-    $isSchoolSubPath = request()->header('X-Test-Header') === 'ssdb';
-
-    $imageUrlBase = $isSchoolSubPath ? '/school/img/' : '/img/';
-    $urlBase = $isSchoolSubPath ? '/school' : '';
-@endphp
-
 @extends('layouts.main')
 
 @section('title', $title)
@@ -36,7 +29,7 @@
 
                                 <div class="row mt-5 search-sc">
                                     <div class="col">
-                                        <form id="ss-param" method="get" action="{{ $urlBase }}/school-search">
+                                        <form id="ss-param" method="get" action="{{ $urlBase }}school-search">
                                             <div class="form-row">
                                                 <div class="col-md-3 col-3">
                                                     <select name="type" id="type" class="h-100 form-control">
@@ -366,10 +359,10 @@
 @endsection
 
 @section('local-assets')
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/navigation.css">
-    <link rel="stylesheet" href="{{ $urlBase }}/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
     <style>
 
         .col-md-12.top-schools a {
@@ -483,11 +476,11 @@
 @endsection
 
 @section('local-scripts')
-    <script src="{{  $urlBase }}/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="{{  $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="{{  $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="{{  $urlBase }}/js/views/view.contact.js"></script>
-    <script src="{{  $urlBase }}/admin/vendor/select2/js/select2.js"></script>
+    <script src="{{  $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{  $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{  $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{  $urlBase }}js/views/view.contact.js"></script>
+    <script src="{{  $urlBase }}admin/vendor/select2/js/select2.js"></script>
 
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
     <script>

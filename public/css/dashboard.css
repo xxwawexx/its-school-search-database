@@ -1,1 +1,64 @@
-body input:focus,body select:focus{outline:none!important}body a{text-decoration:none!important}body input.error{border:1px solid red}body label.error{color:red;font-size:11px}body .btn-primary.focus,body .btn-primary:focus,body .form-control:focus{box-shadow:none!important}body #school_status{border:1px solid #bbb;display:inline;padding:20px}body #smartwizard .nav a{font-weight:600}body .img-school-search button span.material-icons{font-size:23px;margin-top:5px}body .dashboard-main .side-bar ul{padding:0}body .dashboard-main .side-bar ul li{list-style:none}body .dashboard-main .dropzone .dz-message{margin:3em 0!important}body #schoolsTable_wrapper table#schoolsTable thead th{padding:.75rem}body #schoolsTable_wrapper table#schoolsTable tbody td{padding:15px 10px}body #schoolsTable_wrapper #schoolsTable_filter{margin-bottom:1rem}body #schoolsTable_wrapper #schoolsTable_filter input{border:1px solid #9e9e9e;border-radius:0}body #schoolsTable_wrapper #schoolsTable_length select{padding:2px}body #schoolsTable_wrapper #schoolsTable_info,body #schoolsTable_wrapper #schoolsTable_paginate{margin-top:1rem}body #schoolsTable_wrapper #schoolsTable_paginate .paginate_button.current{background:#fff!important;border:1px solid #e2e2e2!important;transition:.5s}body #schoolsTable_wrapper #schoolsTable_paginate .paginate_button.current:hover{background:#fbfbfb!important}
+body input:focus, body select:focus {
+  outline: none !important;
+}
+body a {
+  text-decoration: none !important;
+}
+body input.error {
+  border: 1px solid red;
+}
+body label.error {
+  color: red;
+  font-size: 11px;
+}
+body .form-control:focus, body .btn-primary:focus, body .btn-primary.focus {
+  box-shadow: none !important;
+}
+body #school_status {
+  display: inline;
+  padding: 20px;
+  border: 1px solid #bbbbbb;
+}
+body #smartwizard .nav a {
+  font-weight: 600;
+}
+body .img-school-search button span.material-icons {
+  font-size: 23px;
+  margin-top: 5px;
+}
+body .dashboard-main .side-bar ul {
+  padding: 0;
+}
+body .dashboard-main .side-bar ul li {
+  list-style: none;
+}
+body .dashboard-main .dropzone .dz-message {
+  margin: 3em 0 !important;
+}
+body #schoolsTable_wrapper table#schoolsTable thead th {
+  padding: 0.75rem;
+}
+body #schoolsTable_wrapper table#schoolsTable tbody td {
+  padding: 15px 10px;
+}
+body #schoolsTable_wrapper #schoolsTable_filter {
+  margin-bottom: 1rem;
+}
+body #schoolsTable_wrapper #schoolsTable_filter input {
+  border: 1px solid #9e9e9e;
+  border-radius: 0;
+}
+body #schoolsTable_wrapper #schoolsTable_length select {
+  padding: 2px;
+}
+body #schoolsTable_wrapper #schoolsTable_info, body #schoolsTable_wrapper #schoolsTable_paginate {
+  margin-top: 1rem;
+}
+body #schoolsTable_wrapper #schoolsTable_paginate .paginate_button.current {
+  background: #fff !important;
+  border: 1px solid #e2e2e2 !important;
+  transition: 0.5s;
+}
+body #schoolsTable_wrapper #schoolsTable_paginate .paginate_button.current:hover {
+  background: #fbfbfb !important;
+}

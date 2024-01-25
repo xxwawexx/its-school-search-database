@@ -1,9 +1,4 @@
 @php
-    $isSchoolSubPath = request()->header('X-Test-Header') === 'ssdb';
-
-    $imageUrlBase = $isSchoolSubPath ? '/school/img/' : '/img/';
-    $urlBase = $isSchoolSubPath ? '/school' : '';
-
     $urlContainsHK = false;
     foreach (['Hong', 'Kong'] as $substring) {
         if (str_contains(url()->full(), $substring)) {
@@ -38,7 +33,7 @@
                 <hr class="my-5">
                 <div class="row mb-3">
                     <div class="col">
-                        <form action="{{ $urlBase }}/school-search" id="ss-param" method="get">
+                        <form action="{{ $urlBase }}school-search" id="ss-param" method="get">
                             <div class="form-row">
                                 <div class="col-md-3 col-3">
                                     <select name="type" id="type" class="h-100 form-control">
@@ -307,7 +302,7 @@
                                                     aria-hidden="true"></i></a></div>
                                     </div>
 
-                                    <a href="{{ $urlBase }}/school-profile/{{ $sc->slug }}" class="text-decoration-none">
+                                    <a href="{{ $urlBase }}school-profile/{{ $sc->slug }}" class="text-decoration-none">
                                         <div
                                             class="thumb-info-price bg-color-primary text-color-light text-1 p-2 pl-3 pr-4">
                                             {{ $sc->type && is_array(json_decode($sc->type)) ? implode(", ", json_decode($sc->type)) : '' }}
@@ -358,11 +353,11 @@
                     <div class="row cs-compare-widget">
                         <div class="col-md-6 col-lg-12 mb-4">
                             <div class="bg-color-light-scale-1 px-3 py-3 pb-1 text-center">
-                                <form id="cmp-frm" action="{{ $urlBase }}/compare-school" method="get">
+                                <form id="cmp-frm" action="{{ $urlBase }}compare-school" method="get">
                                     <ul>
                                         @foreach($compare as $key => $cs)
                                             <li>
-                                                <a href="{{ $urlBase }}/school-profile/{{ $cs['slug'] }}"
+                                                <a href="{{ $urlBase }}school-profile/{{ $cs['slug'] }}"
                                                    target="_blank">{{$cs['name']}}</a>
                                                 <span data-toggle="tooltip" title="Remove School"
                                                       onclick="rmParam('compare', {{$cs['id']}})"><i class="fa fa-times"
@@ -622,13 +617,13 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
 
-    <link rel="stylesheet" href="{{ $urlBase }}/admin/vendor/jquery-ui/jquery-ui.css"/>
-    <link rel="stylesheet" href="{{ $urlBase }}/admin/vendor/jquery-ui/jquery-ui.theme.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/jquery-ui/jquery-ui.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/jquery-ui/jquery-ui.theme.css"/>
 
     <style>
 
@@ -718,15 +713,15 @@
 
 @section('local-scripts')
 
-    <script src="{{ $urlBase }}/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="{{ $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="{{ $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="{{ $urlBase }}/js/views/view.contact.js"></script>
-    <script src="{{ $urlBase }}/js/demos/demo-real-estate.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}js/demos/demo-real-estate.js"></script>
 
-    <script src="{{ $urlBase }}/admin/vendor/jquery-ui/jquery-ui.js"></script>
-    <script src="{{ $urlBase }}/admin/js/theme.admin.extension.js"></script>
-    <script src="{{ $urlBase }}/admin/js/examples/examples.advanced.form.js"></script>
+    <script src="{{ $urlBase }}admin/vendor/jquery-ui/jquery-ui.js"></script>
+    <script src="{{ $urlBase }}admin/js/theme.admin.extension.js"></script>
+    <script src="{{ $urlBase }}admin/js/examples/examples.advanced.form.js"></script>
 
     <script>
         function appendQs(key, value) {

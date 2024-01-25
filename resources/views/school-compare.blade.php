@@ -1,10 +1,3 @@
-@php
-    $isSchoolSubPath = request()->header('X-Test-Header') === 'ssdb';
-
-    $imageUrlBase = $isSchoolSubPath ? '/school/img/' : '/img/';
-    $urlBase = $isSchoolSubPath ? '/school' : '';
-@endphp
-
 @extends('layouts.main')
 
 @section('title', $title)
@@ -65,7 +58,7 @@
                     </p>
 
                     <div class="tbtn-cta">
-                        <form action="{{ $urlBase }}/school-search" method="get" class="d-inline-block mr-2">
+                        <form action="{{ $urlBase }}school-search" method="get" class="d-inline-block mr-2">
                             @if($rq)
                                 @foreach($rq as $key => $cs)
                                     <input type="hidden" name="compare[]" value="{{$cs}}">
@@ -169,7 +162,7 @@
 
                                 </div>
                                 <div class="sr-table-footer">
-                                    <a href="{{ $urlBase }}/school-profile/{{ $sc['main']['slug'] }}" target="_blank">
+                                    <a href="{{ $urlBase }}school-profile/{{ $sc['main']['slug'] }}" target="_blank">
                                         <button class="btn btn-primary mb-4">View Full Profile</button>
                                     </a>
                                 </div>
@@ -287,10 +280,10 @@
 
 @section('local-scripts')
 
-    <script src="{{ $urlBase }}/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="{{ $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="{{ $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="{{ $urlBase }}/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
     <script>

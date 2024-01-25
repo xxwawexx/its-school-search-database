@@ -1,10 +1,3 @@
-@php
-    $isSchoolSubPath = request()->header('X-Test-Header') === 'ssdb';
-
-    $imageUrlBase = $isSchoolSubPath ? '/school/img/' : '/img/';
-    $urlBase = $isSchoolSubPath ? '/school' : '';
-@endphp
-
 @extends('layouts.main')
 
 @section('title', $title)
@@ -341,7 +334,7 @@
 
                                         <hr>
 
-                                        <form action="{{ $urlBase }}/school-search" method="get" id="ss-search">
+                                        <form action="{{ $urlBase }}school-search" method="get" id="ss-search">
 
                                             <label class="font-weight-bold mb-1 mt-2">School Name</label>
                                             <div class="row">
@@ -815,13 +808,13 @@
 @endsection
 
 @section('local-assets')
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="{{ $urlBase }}/admin/vendor/jquery-ui/jquery-ui.css"/>
-    <link rel="stylesheet" href="{{ $urlBase }}/admin/vendor/jquery-ui/jquery-ui.theme.css"/>
-    <link rel="stylesheet" href="{{ $urlBase }}/vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/jquery-ui/jquery-ui.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/jquery-ui/jquery-ui.theme.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/simple-line-icons/css/simple-line-icons.min.css">
 
     <style>
         #sc-profile-wrapper td a {
@@ -878,15 +871,15 @@
 
 @section('local-scripts')
 
-        <script src="{{ $urlBase }}/vendor/isotope/jquery.isotope.min.js"></script>
-        <script src="{{ $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-        <script src="{{ $urlBase }}/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-        <script src="{{ $urlBase }}/js/views/view.contact.js"></script>
-        <script src="{{ $urlBase }}/js/demos/demo-real-estate.js"></script>
+        <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+        <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+        <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="{{ $urlBase }}js/views/view.contact.js"></script>
+        <script src="{{ $urlBase }}js/demos/demo-real-estate.js"></script>
 
-        <script src="{{ $urlBase }}/admin/vendor/jquery-ui/jquery-ui.js"></script>
-        <script src="{{ $urlBase }}/admin/js/theme.admin.extension.js"></script>
-        <script src="{{ $urlBase }}/admin/js/examples/examples.advanced.form.js"></script>
+        <script src="{{ $urlBase }}admin/vendor/jquery-ui/jquery-ui.js"></script>
+        <script src="{{ $urlBase }}admin/js/theme.admin.extension.js"></script>
+        <script src="{{ $urlBase }}admin/js/examples/examples.advanced.form.js"></script>
 
     <script defer>
         $('#tests').click(function() {
