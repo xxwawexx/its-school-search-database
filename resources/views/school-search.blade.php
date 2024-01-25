@@ -325,26 +325,69 @@
 
                 </div>
 
+                {{-- Pagination Links --}}
                 <ul class="pagination float-right mt-5">
+                    {{-- Determine the base link --}}
+                    @php
+                        $baseLink = $isSchoolSubPath ? url('/school') : url('');
+                        $queryParams = request()->except('page');
+                        $fullPageLink = function($page) use ($baseLink, $queryParams) {
+                            return $baseLink . '?page=' . $page . '&' . http_build_query($queryParams);
+                        };
+                    @endphp
 
-                    @if( $schools->currentPage() - 1 != 0)
-                        <li class="page-item"><a class="page-link"
-                                                 href="{{$schools->url($schools->currentPage() - 1)}}"><i
-                                    class="fas fa-angle-left"></i></a></li>
+                    {{-- Previous Page Link --}}
+                    @if ($schools->onFirstPage())
+                        <li class="page-item disabled"><span class="page-link">&laquo;</span></li>
+                    @else
+                        <li class="page-item"><a class="page-link" href="{{ $fullPageLink($schools->currentPage() - 1) }}">&laquo;</a></li>
                     @endif
 
-                    @for($x = 1 ; $x <= $schools->lastPage(); $x++)
-                        <li class="page-item {{ $x == $schools->currentPage() ? 'active' : '' }}"><a class="page-link"
-                                                                                                     href="{{$x != 1 ? $schools->url($x) : str_replace(["?page=1","&page=1"],"",$schools->url($x))}}">{{$x}}</a>
+                    {{-- Page Number Links --}}
+                    @for ($i = 1; $i <= $schools->lastPage(); $i++)
+                        <li class="page-item {{ $i == $schools->currentPage() ? 'active' : '' }}">
+                            <a class="page-link" href="{{ $fullPageLink($i) }}">{{ $i }}</a>
                         </li>
                     @endfor
 
-                    @if( $schools->currentPage() < $schools->lastPage())
-                        <a class="page-link" href="{{$schools->url($schools->currentPage() + 1)}}"><i
-                                class="fas fa-angle-right"></i></a>
+                    {{-- Next Page Link --}}
+                    @if ($schools->hasMorePages())
+                        <li class="page-item"><a class="page-link" href="{{ $fullPageLink($schools->currentPage() + 1) }}">&raquo;</a></li>
+                    @else
+                        <li class="page-item disabled"><span class="page-link">&raquo;</span></li>
+                    @endif
+                </ul>
+
+
+                <ul class="pagination float-right mt-5">
+
+                    @if ($schools->currentPage() - 1 != 0)
+                        <li class="page-item">
+                            <a class="page-link" href="{{ $isSchoolSubPath ? str_replace('/school-search', '/school/school-search', $schools->url($schools->currentPage() - 1)) : $schools->url($schools->currentPage() - 1) }}">
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                        </li>
+                    @endif
+
+                    @for ($x = 1; $x <= $schools->lastPage(); $x++)
+                        <li class="page-item {{ $x == $schools->currentPage() ? 'active' : '' }}">
+                            <a class="page-link" href="{{ $isSchoolSubPath ? str_replace('/school-search', '/school/school-search', $schools->url($x)) : $schools->url($x) }}">
+                                {{ $x }}
+                            </a>
+                        </li>
+                    @endfor
+
+                    @if ($schools->currentPage() < $schools->lastPage())
+                        <li class="page-item">
+                            <a class="page-link" href="{{ $isSchoolSubPath ? str_replace('/school-search', '/school/school-search', $schools->url($schools->currentPage() + 1)) : $schools->url($schools->currentPage() + 1) }}">
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                        </li>
                     @endif
 
                 </ul>
+
+
 
             </div>
             <div class="col-lg-3 mt-3">
