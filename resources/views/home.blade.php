@@ -29,7 +29,7 @@
 
                                 <div class="row mt-5 search-sc">
                                     <div class="col">
-                                        <form id="ss-param" method="get" action="{{ $urlBase }}school-search">
+                                        <form id="ss-param" method="get" action="{{ $urlBase }}/school-search">
                                             <div class="form-row">
                                                 <div class="col-md-3 col-3">
                                                     <select name="type" id="type" class="h-100 form-control">
