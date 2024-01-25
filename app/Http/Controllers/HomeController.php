@@ -70,6 +70,12 @@ class HomeController extends Controller
             ->where('schools.status', 'LIKE', '0%')
             ->orderByRaw('case when status LIKE "%premier%" then 1 else 2 end');
 
+        // Check if 'X-Test-Header' is 'ssdb' and modify the request path
+        if (request()->header('X-Test-Header') === 'ssdb') {
+            request()->server->set('REQUEST_URI', '/school' . request()->getRequestUri());
+        }
+
+
         // Paginate the results
         $schools = $query->inRandomOrder(Session::get('SROS'))->paginate(9);
 
