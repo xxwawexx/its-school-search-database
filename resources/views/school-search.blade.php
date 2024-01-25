@@ -327,9 +327,24 @@
 
                 <ul class="pagination float-right mt-5">
 
+                    @php
+                        function adjustPaginationUrl($url, $isSchoolSubPath) {
+                            $parsedUrl = parse_url($url);
+                            $scheme = $parsedUrl['scheme'] . '://';
+                            $host = $parsedUrl['host'];
+                            $port = isset($parsedUrl['port']) ? ':' . $parsedUrl['port'] : '';
+
+                            if ($isSchoolSubPath && !str_contains($host, 'school.')) {
+                                $host = 'school.' . $host;
+                            }
+
+                            return $scheme . $host . $port . $parsedUrl['path'] . (isset($parsedUrl['query']) ? '?' . $parsedUrl['query'] : '');
+                        }
+                    @endphp
+
                     @if ($schools->currentPage() - 1 != 0)
                         <li class="page-item">
-                            <a class="page-link" href="{{ $isSchoolSubPath ? str_replace('/school-search', '/school/school-search', $schools->url($schools->currentPage() - 1)) : $schools->url($schools->currentPage() - 1) }}">
+                            <a class="page-link" href="{{ adjustPaginationUrl($schools->url($schools->currentPage() - 1), $isSchoolSubPath) }}">
                                 <i class="fas fa-angle-left"></i>
                             </a>
                         </li>
@@ -337,7 +352,7 @@
 
                     @for ($x = 1; $x <= $schools->lastPage(); $x++)
                         <li class="page-item {{ $x == $schools->currentPage() ? 'active' : '' }}">
-                            <a class="page-link" href="{{ $isSchoolSubPath ? str_replace('/school-search', '/school/school-search', $schools->url($x)) : $schools->url($x) }}">
+                            <a class="page-link" href="{{ adjustPaginationUrl($schools->url($x), $isSchoolSubPath) }}">
                                 {{ $x }}
                             </a>
                         </li>
@@ -345,13 +360,14 @@
 
                     @if ($schools->currentPage() < $schools->lastPage())
                         <li class="page-item">
-                            <a class="page-link" href="{{ $isSchoolSubPath ? str_replace('/school-search', '/school/school-search', $schools->url($schools->currentPage() + 1)) : $schools->url($schools->currentPage() + 1) }}">
+                            <a class="page-link" href="{{ adjustPaginationUrl($schools->url($schools->currentPage() + 1), $isSchoolSubPath) }}">
                                 <i class="fas fa-angle-right"></i>
                             </a>
                         </li>
                     @endif
 
                 </ul>
+
 
 
             </div>
