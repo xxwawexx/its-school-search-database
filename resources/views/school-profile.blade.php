@@ -96,7 +96,7 @@
                                         @if($simg)
                                             @foreach($simg as $si)
                                                 <div>
-                                                    <a href="{{  url('') }}/img/school/{{ $si['filename'] }}">
+                                                    <a href="{{ $imageUrlBase }}school/{{ $si['filename'] }}">
                                                 <span
                                                     class="thumb-info thumb-info-centered-info thumb-info-no-borders text-4">
                                                     <span class="thumb-info-wrapper text-4">
@@ -320,7 +320,7 @@
                                     @if($school['info']['id'] == 10058)
                                     <div class="bg-color-light-scale-1 p-3">
                                         <div>
-                                            <a href="https://bit.ly/3rzXFi9" target="_blank"><img src="{{ $imageUrlBase }}ITS-Banner_stamford.jpg" class="w-100"></a>
+                                            <a href="https://bit.ly/3rzXFi9" target="_blank"><img src="{{ $imageUrlBase }}ITS-Banner_stamford.webp" class="w-100"></a>
                                         </div>
                                     </div>
                                     @endif
@@ -611,14 +611,14 @@
                                             <div>
                                                 <a href="https://www.malverncollege.org.hk/" alt="Malvern College HK"
                                                    target="_blank"><img
-                                                        src="{{ $imageUrlBase }}malvern_college_banner-oct-19.jpg" class="w-100"></a>
+                                                        src="{{ $imageUrlBase }}malvern_college_banner-oct-19.webp" class="w-100"></a>
                                             </div>
                                         </div>
                                     @elseif(str_contains(url()->full(),'North+London+Collegiate+School+%28Singapore%29'))
                                         <div class="bg-color-light-scale-1 px-3 py-3 pb-1 mt-4">
                                             <div>
                                                 <a href="http://nlcssingapore.sg/" target="_blank"><img
-                                                        src="{{ $imageUrlBase }}Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" class="w-100"></a>
+                                                        src="{{ $imageUrlBase }}Web-banner-for-ITS-Asia-Education1_21-02-22.webp" class="w-100"></a>
                                             </div>
                                         </div>
                                    @endif
@@ -634,7 +634,7 @@
 
                                                 @if($randrange == 1)
                                                     <a href="https://www.sais.edu.sg/virtual-admissions-tour/">
-                                                        <img src="{{ $imageUrlBase }}stamford-ssd-profile-1001.jpg" class="w-100">
+                                                        <img src="{{ $imageUrlBase }}stamford-ssd-profile-1001.webp" class="w-100">
                                                     </a>
                                                 @endif
 

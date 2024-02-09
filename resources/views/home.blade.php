@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <section class="parallax section section-text-light section-parallax section-center section-overlay-opacity section-overlay-opacity-scale-8 my-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="{{ $imageUrlBase }}school-database-bg.jpg">
+    <section class="parallax section section-text-light section-parallax section-center section-overlay-opacity section-overlay-opacity-scale-8 my-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="{{ $imageUrlBase }}school-database-bg.webp">
         <div class="container container-lg my-5 py-5">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -346,7 +346,7 @@
             <a href="https://itseducation.asia/school/singapore">Singapore Schools</a>
         </div>
         <div class="school-guide-advert d-none d-md-block">
-            <img src="{{ $imageUrlBase }}school-guide-front-cover_2022-2023-min-ssdb.jpg" class="w-100" alt="">
+            <img src="{{ $imageUrlBase }}school-guide-front-cover_2022-2023-min-ssdb.webp" class="w-100" alt="">
             <div class="school-guide-advert-caption">
                 <strong class="text-primary">The Unique Asia Schools Guide</strong>
                 <p class="text-black-50 mb-0">Click here to complete our form to <a

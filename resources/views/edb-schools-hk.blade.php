@@ -19,18 +19,11 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/edb-schools-hk")
-                                <a href="https://school.itseducation.asia/">Home</a>
-                            @else
-                                <a href="https://itseducation.asia/school/">Home</a>
-                            @endif
+                                <a href="{{ $urlBase }}school/">Home</a>
                             </li>
 
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/edb-schools-hk")
-                                <li><a href="https://school.itseducation.asia/hong-kong">Hong Kong</a></li>
-                            @else
-                                <li><a href="https://itseducation.asia/school/hong-kong">Hong Kong</a></li>
-                            @endif
+                            <li><a href="{{ $urlBase }}school/hong-kong">Hong Kong</a></li>
+
 
                             <li class="active">Education Bureau (EDB) Schools in Hong Kong</li>
                         </ul>
@@ -59,7 +52,7 @@
                         - Direct Subsidy Scheme (DSS) <br>
                         - Private schools subsidised by the government <br>
                         - Private International Schools - privately run schools offering international curriculum <br>
-                        - English Schools Foundation – private schools not funded by the government aimed at English-speaking children. 
+                        - English Schools Foundation – private schools not funded by the government aimed at English-speaking children.
                     </p>
 
                     <p>
@@ -84,11 +77,11 @@
                         - Nord Anglia International School <br>
                         - Singapore International School Hong Kong <br>
                         - Shrewsbury International School Hong Kong <br>
-                        - Yew Chung International School Hong Kong 
+                        - Yew Chung International School Hong Kong
                     </p>
 
                     <h2>
-                        Criteria for Choosing an EDB school in Hong Kong 
+                        Criteria for Choosing an EDB school in Hong Kong
                     </h2>
 
                     <p>
@@ -106,11 +99,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/JVdDqXbH5g0Xe04f-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus School - Chai Wan Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/edb-schools-hk")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Invictus+School+-+Chai+Wan+Campus" class="btn btn-primary s-btn">Invictus School - Chai Wan Campus</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Invictus+School+-+Chai+Wan+Campus" class="btn btn-primary s-btn">Invictus School - Chai Wan Campus</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Invictus+School+-+Chai+Wan+Campus" class="btn btn-primary s-btn">Invictus School - Chai Wan Campus</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -139,7 +128,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -158,7 +147,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -191,15 +180,15 @@
                         </a>
 
                         <hr>
-                        
-                        <a href="https://school.itseducation.asia/">
+
+                        <a href="https://itseducation.asia/school">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -283,7 +272,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;

@@ -19,18 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/international-schools-hk/british-schools-hk")
-                                <a href="https://school.itseducation.asia/">Home</a>
-                            @else
-                                <a href="https://itseducation.asia/school/">Home</a>
-                            @endif
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
 
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/international-schools-hk/british-schools-hk")
-                                <li><a href="https://school.itseducation.asia/hong-kong">Hong Kong</a></li>
-                            @else
-                                <li><a href="https://itseducation.asia/school/hong-kong">Hong Kong</a></li>
-                            @endif
+                            <li><a href="{{ $urlBase }}school/hong-kong">Hong Kong</a></li>
 
                             <li class="active">British International Schools in Hong Kong</li>
                         </ul>
@@ -49,11 +41,11 @@
                     </p>
 
                     <p>
-                        Why is this so reputable and popular? Hong Kong families and expatriates respect the British education system, which has a long history of academic excellence. The English secondary schools in Hong Kong consistently produce graduates who excel in various fields. The schools employ high-calibre teachers, providing students exceptionally well for higher education. 
+                        Why is this so reputable and popular? Hong Kong families and expatriates respect the British education system, which has a long history of academic excellence. The English secondary schools in Hong Kong consistently produce graduates who excel in various fields. The schools employ high-calibre teachers, providing students exceptionally well for higher education.
                     </p>
 
                     <h2>
-                        List of Top British International Schools in Hong Kong 
+                        List of Top British International Schools in Hong Kong
                     </h2>
 
                     <p>
@@ -80,15 +72,15 @@
                     </p>
 
                     <h2>
-                        Criteria for Choosing a British International School in Hong Kong 
+                        Criteria for Choosing a British International School in Hong Kong
                     </h2>
-                    
+
                     <p>
-                        It’s very important to understand the details of the British Curriculum and what sets it apart from other excellent curricula. What do you need to consider, and what makes this curriculum unique? 
+                        It’s very important to understand the details of the British Curriculum and what sets it apart from other excellent curricula. What do you need to consider, and what makes this curriculum unique?
                     </p>
 
                     <p>
-                        Almost every British international school in Hong Kong has impressive benefits for students. Many British schools in Hong Kong offer the IB Diploma in the last two years. Another consideration is to inquire about the school’s alumni success, external exam results, and extracurricular activities. If you want a traditional British school, you would also be looking for specific leadership programmes and affiliations with schools in the UK. 
+                        Almost every British international school in Hong Kong has impressive benefits for students. Many British schools in Hong Kong offer the IB Diploma in the last two years. Another consideration is to inquire about the school’s alumni success, external exam results, and extracurricular activities. If you want a traditional British school, you would also be looking for specific leadership programmes and affiliations with schools in the UK.
                     </p>
 
                     <p>
@@ -106,11 +98,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/kDhQkS4Jb0YyIEFl-primary.png); background-size: cover; background-position: center center;" alt="Woodland Pre-Schools">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/primary-schools-hk")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Woodland+Pre-Schools" class="btn btn-primary s-btn">Woodland Pre-Schools</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Woodland+Pre-Schools" class="btn btn-primary s-btn">Woodland Pre-Schools</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Woodland+Pre-Schools" class="btn btn-primary s-btn">Woodland Pre-Schools</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -139,7 +127,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -158,7 +146,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -191,15 +179,15 @@
                         </a>
 
                         <hr>
-                        
-                        <a href="https://school.itseducation.asia/">
+
+                        <a href="https://itseducation.asia/school">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -283,7 +271,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;

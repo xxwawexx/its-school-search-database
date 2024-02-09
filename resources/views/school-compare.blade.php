@@ -6,7 +6,7 @@
 
     <section
             class="parallax section section-text-light section-parallax section-center section-overlay-opacity section-overlay-opacity-scale-8 my-0"
-            data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="{{ $imageUrlBase }}school-database-bg.jpg">
+            data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="{{ $imageUrlBase }}school-database-bg.webp">
 
         <div class="container">
             <div class="row">
@@ -21,7 +21,7 @@
                             <a href="https://www.kellettschool.com/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}kellet-advert-comp.gif" alt=""></a>
                         </div>
                         <div>
-                            <a href="https://www.shrewsbury.edu.hk/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}shrewburry-ssd-compare.jpg" alt=""></a>
+                            <a href="https://www.shrewsbury.edu.hk/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}shrewburry-ssd-compare.webp" alt=""></a>
                         </div>
                         <div>
                             <a href="https://www.malverncollege.org.hk/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}HK_banner-fa1.gif" alt=""></a>
@@ -31,10 +31,10 @@
                             <a href="https://www.itseducation.asia/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}slides/SG_banner-ga1.jpg" alt=""></a>
                         </div>
                         <div>
-                            <a href="http://nlcssingapore.sg/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}nlcs-comp.jpg" alt=""></a>
+                            <a href="http://nlcssingapore.sg/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}nlcs-comp.webp" alt=""></a>
                         </div>
                         <div>
-                            <a href="https://www.tts.edu.sg/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}top_slider-fa1.jpg" alt=""></a>
+                            <a href="https://www.tts.edu.sg/" target="_blank"><img class="img-fluid" src="{{ $imageUrlBase }}top_slider-fa1.webp" alt=""></a>
                         </div>
                     @endif
                 </div>

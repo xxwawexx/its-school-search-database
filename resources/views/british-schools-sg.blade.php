@@ -19,18 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                            @if( url()->current() == "https://school.itseducation.asia/singapore/international-schools-sg/british-schools-sg")
-                                <a href="https://school.itseducation.asia/">Home</a>
-                            @else
-                                <a href="https://itseducation.asia/school/">Home</a>
-                            @endif
+                                <a href="{{ $urlBase }}school/">Home</a>
                             </li>
 
-                            @if( url()->current() == "https://school.itseducation.asia/singapore/international-schools-sg/british-schools-sg")
-                                <li><a href="https://school.itseducation.asia/singapore">Singapore</a></li>
-                            @else
-                                <li><a href="https://itseducation.asia/school/singapore">Singapore</a></li>
-                            @endif
+                            <li><a href="{{ $urlBase }}school/singapore">Singapore</a></li>
 
                             <li class="active">British International Schools in Singapore</li>
                         </ul>
@@ -92,11 +84,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/DRY4Q9q076igbx6T-primary.jpg); background-size: cover; background-position: center center;" alt="North London Collegiate School (Singapore)">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/international-schools-sg/british-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/North+London+Collegiate+School+(Singapore)" class="btn btn-primary s-btn">North London Collegiate School (Singapore)</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/North+London+Collegiate+School+(Singapore)" class="btn btn-primary s-btn">North London Collegiate School (Singapore)</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/North+London+Collegiate+School+(Singapore)" class="btn btn-primary s-btn">North London Collegiate School (Singapore)</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -108,11 +96,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Jk4n1dRGVQHFE1cL-primary.jpg); background-size: cover; background-position: center center;" alt="Tanglin Trust School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/international-schools-sg/british-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Tanglin+Trust+School" class="btn btn-primary s-btn">Tanglin Trust School</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Tanglin+Trust+School" class="btn btn-primary s-btn">Tanglin Trust School</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Tanglin+Trust+School" class="btn btn-primary s-btn">Tanglin Trust School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -124,11 +108,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/1pBTZQRhxQfJkOAv-primary.jpg); background-size: cover; background-position: center center;" alt="Sir Manasseh Meyer International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/international-schools-sg/british-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Sir+Manasseh+Meyer+International+School" class="btn btn-primary s-btn">Sir Manasseh Meyer International School</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Sir+Manasseh+Meyer+International+School" class="btn btn-primary s-btn">Sir Manasseh Meyer International School</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Sir+Manasseh+Meyer+International+School" class="btn btn-primary s-btn">Sir Manasseh Meyer International School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -157,7 +137,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -176,7 +156,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -209,15 +189,15 @@
                         </a>
 
                         <hr>
-                        
-                        <a href="https://school.itseducation.asia/">
+
+                        <a href="https://itseducation.asia/school">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -301,7 +281,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;

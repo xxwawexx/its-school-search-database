@@ -19,18 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/international-schools-hk/french-schools-hk")
-                                <a href="https://school.itseducation.asia/">Home</a>
-                            @else
-                                <a href="https://itseducation.asia/school/">Home</a>
-                            @endif
+                                <a href="{{ $urlBase }}school/">Home</a>
                             </li>
 
-                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/international-schools-hk/french-schools-hk")
-                                <li><a href="https://school.itseducation.asia/hong-kong">Hong Kong</a></li>
-                            @else
-                                <li><a href="https://itseducation.asia/school/hong-kong">Hong Kong</a></li>
-                            @endif
+                            <li><a href="{{ $urlBase }}school/hong-kong">Hong Kong</a></li>
 
                             <li class="active">French International Schools in Hong Kong</li>
                         </ul>
@@ -61,7 +53,7 @@
                     </h2>
 
                     <p>
-                        <h4>The French International School in Hong Kong</h4> Offers two streams. The French stream follows the French National Curriculum (Brevet and French Baccalaureate). The International Stream follows the English National Curriculum to Year 11(IGCSE), and in sixth form, students prepare for their IB Diploma Programme. The French-speaking students attend 1 of 4 campuses in Happy Valley, Jardine’s Lookout, Chai Wan, and Hung Hom. The International Stream students also share the same campuses. All FIS students are part of an integrated learning community. All streams share facilities and a curriculum taught in both main languages. This encourages a bilingual community through genuine communicative immersion. Students are high achievers, which can be seen through the high scores in their IB Diploma exams every year. The average score for 2023 is 34.1/45 points, with 50% of students achieving 35-40 points. 
+                        <h4>The French International School in Hong Kong</h4> Offers two streams. The French stream follows the French National Curriculum (Brevet and French Baccalaureate). The International Stream follows the English National Curriculum to Year 11(IGCSE), and in sixth form, students prepare for their IB Diploma Programme. The French-speaking students attend 1 of 4 campuses in Happy Valley, Jardine’s Lookout, Chai Wan, and Hung Hom. The International Stream students also share the same campuses. All FIS students are part of an integrated learning community. All streams share facilities and a curriculum taught in both main languages. This encourages a bilingual community through genuine communicative immersion. Students are high achievers, which can be seen through the high scores in their IB Diploma exams every year. The average score for 2023 is 34.1/45 points, with 50% of students achieving 35-40 points.
                     </p>
 
                     <p>
@@ -79,7 +71,7 @@
                     </h2>
 
                     <p>
-                        So you have decided to send your child to a French school. If you are not from a French-speaking family, you will choose the International stream. Adapting to the French school system can be intimidating if you are not French. The French curriculum differs from the UK, US, Australia, and International Baccalaureate curricula. Suppose you have experienced one or both systems. In that case, you will know that each education system should offer an excellent academic foundation, a healthy offering of extra-curricular activities, vital language programs, and dedicated faculty. AEFE should accredit all schools, so check this when choosing a school. 
+                        So you have decided to send your child to a French school. If you are not from a French-speaking family, you will choose the International stream. Adapting to the French school system can be intimidating if you are not French. The French curriculum differs from the UK, US, Australia, and International Baccalaureate curricula. Suppose you have experienced one or both systems. In that case, you will know that each education system should offer an excellent academic foundation, a healthy offering of extra-curricular activities, vital language programs, and dedicated faculty. AEFE should accredit all schools, so check this when choosing a school.
                     </p>
 
                     <section>
@@ -89,11 +81,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/eRhEeqoNyvSUnfjD-primary.jpg); background-size: cover; background-position: center center;" alt="French International School - Secondary - International and French Section">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/international-schools-hk/french-schools-hk")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/French+International+School+-+Secondary+-+International+and+French+Section" class="btn btn-primary s-btn">French International School - Secondary - International and French Section</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/French+International+School+-+Secondary+-+International+and+French+Section" class="btn btn-primary s-btn">French International School - Secondary - International and French Section</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/French+International+School+-+Secondary+-+International+and+French+Section" class="btn btn-primary s-btn">French International School - Secondary - International and French Section</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -105,11 +93,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/OtFEAoWtct7LHrfg-primary.jpg); background-size: cover; background-position: center center;" alt="French International School - Reception and Primary">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/international-schools-hk/french-schools-hk")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/French+International+School+-+Reception+and+Primary" class="btn btn-primary s-btn">French International School - Reception and Primary</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/French+International+School+-+Reception+and+Primary" class="btn btn-primary s-btn">French International School - Reception and Primary</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/French+International+School+-+Reception+and+Primary" class="btn btn-primary s-btn">French International School - Reception and Primary</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -138,7 +122,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -157,7 +141,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -190,15 +174,15 @@
                         </a>
 
                         <hr>
-                        
-                        <a href="https://school.itseducation.asia/">
+
+                        <a href="https://itseducation.asia/school">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -282,7 +266,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;

@@ -68,7 +68,7 @@
                     </p>
 
                     <h2>Criteria for Choosing an Independent School in Hong Kong</h2>
-                    
+
                     <p>
                         There are numerous choices if you search for an independent high school in Hong Kong. Naturally, you want to find the best independent school in Hong Kong. Narrowing down your choices can be a complex process—factors include the quality of the education style, the location and external exam scores. When looking for a high school, it is essential to look at academic standing and take note of the school’s university matriculation. How many students are admitted to the top 50 global universities? Schools usually publish specific facts and figures about their current annual academic standing and university acceptance, so it is up to parents to decipher the reality from this information. It is common to focus on the intangibles, but something which is often not considered is the school culture.
                     </p>
@@ -133,7 +133,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -152,7 +152,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -185,15 +185,15 @@
                         </a>
 
                         <hr>
-                        
+
                         <a href="https://school.itseducation.asia/">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -277,7 +277,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;

@@ -40,7 +40,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/3BauZBVLKtctP2Hs-primary.jpg); background-size: cover; background-position: center center;" alt="XCL World Academy">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/3BauZBVLKtctP2Hs-primary.webp); background-size: cover; background-position: center center;" alt="XCL World Academy">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/XCL+World+Academy" class="btn btn-primary s-btn">XCL World Academy</a></p>
@@ -52,7 +52,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/UDF2yzQ2RDVojiSZ-primary.jpg); background-size: cover; background-position: center center;" alt="Australian International School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/UDF2yzQ2RDVojiSZ-primary.webp); background-size: cover; background-position: center center;" alt="Australian International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Australian+International+School" class="btn btn-primary s-btn">Australian International School</a></p>
@@ -64,7 +64,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/AJTvMsHCZz2gbhSU-primary.jpg); background-size: cover; background-position: center center;" alt="Canadian International School - Tanjong Katong Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/AJTvMsHCZz2gbhSU-primary.webp); background-size: cover; background-position: center center;" alt="Canadian International School - Tanjong Katong Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Canadian+International+School+-+Tanjong+Katong+Campus" class="btn btn-primary s-btn">Canadian International School - Tanjong Katong Campus</a></p>
@@ -76,7 +76,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/TEoCBrMu7OIlkhZL-primary.jpg); background-size: cover; background-position: center center;" alt="Etonhouse International School - Thomson Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/TEoCBrMu7OIlkhZL-primary.webp); background-size: cover; background-position: center center;" alt="Etonhouse International School - Thomson Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Etonhouse+International+School+-+Thomson+Campus" class="btn btn-primary s-btn">Etonhouse International School - Thomson Campus</a></p>
@@ -88,7 +88,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/5FAo1hRnhNUzzwu7-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus International School - Sentosa Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/5FAo1hRnhNUzzwu7-primary.webp); background-size: cover; background-position: center center;" alt="Invictus International School - Sentosa Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Invictus+International+School+-+Sentosa+Campus" class="btn btn-primary s-btn">Invictus International School - Sentosa Campus</a></p>
@@ -100,7 +100,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/Ql5wHw2DiaqjAJ7u-primary.jpg); background-size: cover; background-position: center center;" alt="Middleton International School - Upper Bukit Timah Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/Ql5wHw2DiaqjAJ7u-primary.webp); background-size: cover; background-position: center center;" alt="Middleton International School - Upper Bukit Timah Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Middleton+International+School+-+Upper+Bukit+Timah+Campus" class="btn btn-primary s-btn">Middleton International School - Upper Bukit Timah Campus</a></p>
@@ -112,7 +112,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/KPUi4w941Xff3q2m-primary.jpg); background-size: cover; background-position: center center;" alt="One World International School - Nanyang Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/KPUi4w941Xff3q2m-primary.webp); background-size: cover; background-position: center center;" alt="One World International School - Nanyang Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/One+World+International+School+-+Nanyang+Campus" class="btn btn-primary s-btn">One World International School - Nanyang Campus</a></p>
@@ -124,7 +124,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/6532SCRNJhkS4QWH-primary.jpg); background-size: cover; background-position: center center;" alt="ISS International School - High School Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/6532SCRNJhkS4QWH-primary.webp); background-size: cover; background-position: center center;" alt="ISS International School - High School Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/ISS+International+School+-+High+School+Campus" class="btn btn-primary s-btn">ISS International School - High School Campus</a></p>
@@ -136,7 +136,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/7lurEkqJBrRlvJJk-primary.jpg); background-size: cover; background-position: center center;" alt="One World International School - Mountbatten Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/7lurEkqJBrRlvJJk-primary.webp); background-size: cover; background-position: center center;" alt="One World International School - Mountbatten Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/One+World+International+School+-+Mountbatten+Campus" class="btn btn-primary s-btn">One World International School - Mountbatten Campus</a></p>
@@ -148,7 +148,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/1unOrin9nwqqoYyI-primary.jpg); background-size: cover; background-position: center center;" alt="Etonhouse International School - Sentosa Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/1unOrin9nwqqoYyI-primary.webp); background-size: cover; background-position: center center;" alt="Etonhouse International School - Sentosa Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Etonhouse+International+School+-+Sentosa+Campus" class="btn btn-primary s-btn">Etonhouse International School - Sentosa Campus</a></p>
@@ -160,7 +160,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/1pBTZQRhxQfJkOAv-primary.jpg); background-size: cover; background-position: center center;" alt="Sir Manasseh Meyer International School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/1pBTZQRhxQfJkOAv-primary.webp); background-size: cover; background-position: center center;" alt="Sir Manasseh Meyer International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Sir+Manasseh+Meyer+International+School" class="btn btn-primary s-btn">Sir Manasseh Meyer International School</a></p>
@@ -172,7 +172,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/pzWpnv9f6V3vUBW2-primary.jpg); background-size: cover; background-position: center center;" alt="Hollandse School Limited">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/pzWpnv9f6V3vUBW2-primary.webp); background-size: cover; background-position: center center;" alt="Hollandse School Limited">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hollandse+School+Limited" class="btn btn-primary s-btn">Hollandse School Limited</a></p>
@@ -184,7 +184,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/9WRvMnSEXipmg4t9-primary.jpg); background-size: cover; background-position: center center;" alt="Hillside World Academy">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/9WRvMnSEXipmg4t9-primary.webp); background-size: cover; background-position: center center;" alt="Hillside World Academy">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hillside+World+Academy" class="btn btn-primary s-btn">Hillside World Academy</a></p>
@@ -196,7 +196,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/p2wKV6M4XATWt6Ud-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus International School - Dempsey Campus">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/p2wKV6M4XATWt6Ud-primary.webp); background-size: cover; background-position: center center;" alt="Invictus International School - Dempsey Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Invictus+International+School+-+Dempsey+Campus" class="btn btn-primary s-btn">Invictus International School - Dempsey Campus</a></p>
@@ -208,7 +208,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/ofs_sg_pr.jpg); background-size: cover; background-position: center center;" alt="Overseas Family School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/ofs_sg_pr.webp); background-size: cover; background-position: center center;" alt="Overseas Family School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Overseas+Family+School" class="btn btn-primary s-btn">Overseas Family School</a></p>
@@ -220,7 +220,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/SDRy6a34Jx3GtsAU-primary.jpg); background-size: cover; background-position: center center;" alt="Singapore American School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/SDRy6a34Jx3GtsAU-primary.webp); background-size: cover; background-position: center center;" alt="Singapore American School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Singapore+American+School" class="btn btn-primary s-btn">Singapore American School</a></p>
@@ -232,7 +232,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/RlE6VwWmA83B7JvD-primary.jpg); background-size: cover; background-position: center center;" alt="HWA Chong International School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/RlE6VwWmA83B7JvD-primary.webp); background-size: cover; background-position: center center;" alt="HWA Chong International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/HWA+Chong+International+School" class="btn btn-primary s-btn">HWA Chong International School</a></p>

@@ -415,7 +415,7 @@
                                     <div class="bg-color-light-scale-1 mt-4">
                                         <a target="_blank"
                                            href="https://www.itseducation.asia/singapore/inside-news-on-schools-singapore.php">
-                                            <img src="{{ $imageUrlBase }}sg-insidenews-banner-a1.jpg" class="w-100">
+                                            <img src="{{ $imageUrlBase }}sg-insidenews-banner-a1.webp" class="w-100">
                                         </a>
                                     </div>
                                     <div class="bg-color-light-scale-1 px-3 py-3 pb-1 mt-4">
@@ -423,7 +423,7 @@
                                              data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 1}, '992': {'items': 1}, '1200': {'items': 1}}, 'autoplay': true, 'autoplayTimeout': 5000, 'dots': false}">
                                             <div>
                                                 <a href="http://nlcssingapore.sg/" target="_blank"><img
-                                                        src="{{ $imageUrlBase }}Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" class="w-100"></a>
+                                                        src="{{ $imageUrlBase }}Web-banner-for-ITS-Asia-Education1_21-02-22.webp" class="w-100"></a>
                                             </div>
 
 
@@ -434,7 +434,7 @@
                                                             @if(app('request')->input('country') !== "Singapore")
                                                                 <div>
                                                                     <a target="_blank" href="https://singapore.dulwich.org/">
-                                                                        <img src="{{ $imageUrlBase }}dulwich_banner_39.jpg" class="w-100">
+                                                                        <img src="{{ $imageUrlBase }}dulwich_banner_39.webp" class="w-100">
                                                                     </a>
                                                                 </div>
                                                             @endif
@@ -467,11 +467,11 @@
 
                                             <div>
                                                 <a href="https://www.nordangliaeducation.com/our-schools/singapore" target="_blank"><img
-                                                        src="{{ $imageUrlBase }}dover_court-banner.jpg" class="w-100"></a>
+                                                        src="{{ $imageUrlBase }}dover_court-banner.webp" class="w-100"></a>
                                             </div>
                                             <div>
                                                 <a href="https://www.xwa.edu.sg/?utm_source=digital&utm_medium=banner&utm_campaign=Its_hk_350x350_st_awareness_92021" target="_blank"><img
-                                                        src="{{ $imageUrlBase }}XCL_World_Academy_banner-02-21-22.jpg" class="w-100"></a>
+                                                        src="{{ $imageUrlBase }}XCL_World_Academy_banner-02-21-22.webp" class="w-100"></a>
                                             </div>
                                         </div>
                                     </div>
@@ -487,7 +487,7 @@
                                         <div>
                                             <a href="https://www.malverncollege.org.hk/" alt="Malvern College HK"
                                                target="_blank"><img
-                                                    src="{{ $imageUrlBase }}malvern_college_banner-oct-19.jpg" class="w-100"></a>
+                                                    src="{{ $imageUrlBase }}malvern_college_banner-oct-19.webp" class="w-100"></a>
                                         </div>
                                     </div>
                                     <div class="bg-color-light-scale-1 px-3 py-3 pb-1 mb-4">
@@ -502,7 +502,7 @@
                                              data-plugin-options="{'responsive': {'0': {'items': 1}, '476': {'items': 1}, '768': {'items': 1}, '992': {'items': 1}, '1200': {'items': 1}}, 'autoplay': true, 'autoplayTimeout': 7000, 'dots': false}">
                                             <div>
                                                 <a href="http://nlcssingapore.sg/" target="_blank"><img
-                                                        src="{{ $imageUrlBase }}school-banner-1.jpg" class="w-100"></a>
+                                                        src="{{ $imageUrlBase }}school-banner-1.webp" class="w-100"></a>
                                             </div>
                                             <div>
                                                 <a href="https://www.tts.edu.sg/" target="_blank"><img
@@ -525,20 +525,20 @@
                                     <div class="bg-color-light-scale-1 mt-4">
                                         <a target="_blank"
                                            href="https://www.itseducation.asia/inside-news-on-schools-hong-kong.php">
-                                            <img src="{{ $imageUrlBase }}hk-insidenews-banner-a1.jpg" class="w-100">
+                                            <img src="{{ $imageUrlBase }}hk-insidenews-banner-a1.webp" class="w-100">
                                         </a>
                                     </div>
 
                                     <div class="bg-color-light-scale-1 mt-4">
                                         <a target="_blank"
                                            href="https://www.itseducation.asia/singapore/inside-news-on-schools-singapore.php">
-                                            <img src="{{ $imageUrlBase }}sg-insidenews-banner-a1.jpg" class="w-100">
+                                            <img src="{{ $imageUrlBase }}sg-insidenews-banner-a1.webp" class="w-100">
                                         </a>
                                     </div>
                                     <div class="bg-color-light-scale-1 px-3 py-3 mt-4">
                                         <a alt="School Guide" target="_blank"
                                            href="https://www.itseducation.asia/school-guide/">
-                                            <img src="{{ $imageUrlBase }}sbar-5-a1.jpg" class="w-100">
+                                            <img src="{{ $imageUrlBase }}sbar-5-a1.webp" class="w-100">
                                         </a>
                                     </div>
                                 @endif

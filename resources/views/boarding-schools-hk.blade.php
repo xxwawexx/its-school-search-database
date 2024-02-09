@@ -76,7 +76,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/wNwcXEm1Vg938Ggi-primary.jpg); background-size: cover; background-position: center center;" alt="Hong Kong Adventist Academy - Day and Boarding">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/wNwcXEm1Vg938Ggi-primary.webp); background-size: cover; background-position: center center;" alt="Hong Kong Adventist Academy - Day and Boarding">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hong+Kong+Adventist+Academy+-+Day+and+Boarding" class="btn btn-primary s-btn">Hong Kong Adventist Academy - Day and Boarding</a></p>

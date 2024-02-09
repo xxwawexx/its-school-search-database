@@ -40,7 +40,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/a60Zu097SHsOnYLG-primary.jpg); background-size: cover; background-position: center center;" alt="Chinese Academy Primary School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/a60Zu097SHsOnYLG-primary.webp); background-size: cover; background-position: center center;" alt="Chinese Academy Primary School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Chinese+Academy+Primary+School" class="btn btn-primary s-btn">Chinese Academy Primary School</a></p>
@@ -52,7 +52,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/KYwN3yP8P3z9Fmbm-primary.jpg); background-size: cover; background-position: center center;" alt="Chinese International School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/KYwN3yP8P3z9Fmbm-primary.webp); background-size: cover; background-position: center center;" alt="Chinese International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Chinese+International+School" class="btn btn-primary s-btn">Chinese International School</a></p>

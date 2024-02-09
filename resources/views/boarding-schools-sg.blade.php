@@ -86,7 +86,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/9WRvMnSEXipmg4t9-primary.jpg); background-size: cover; background-position: center center;" alt="Hillside World Academy">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/9WRvMnSEXipmg4t9-primary.webp); background-size: cover; background-position: center center;" alt="Hillside World Academy">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Hillside+World+Academy" class="btn btn-primary s-btn">Hillside World Academy</a></p>
@@ -98,7 +98,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/0rZjeBM5VfjN8I3F-primary.jpg); background-size: cover; background-position: center center;" alt="St Joseph's Institution International">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/0rZjeBM5VfjN8I3F-primary.webp); background-size: cover; background-position: center center;" alt="St Joseph's Institution International">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/St+Joseph+Institution+International" class="btn btn-primary s-btn">St Joseph's Institution International</a></p>

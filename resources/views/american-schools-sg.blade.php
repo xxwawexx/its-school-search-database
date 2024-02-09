@@ -76,7 +76,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/ics_sg_pr.jpg); background-size: cover; background-position: center center;" alt="International Community School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/ics_sg_pr.webp); background-size: cover; background-position: center center;" alt="International Community School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/International+Community+School" class="btn btn-primary s-btn">International Community School</a></p>
@@ -88,7 +88,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/Xc9qbVr7rAqfDQOU-primary.jpg); background-size: cover; background-position: center center;" alt="Stamford American International School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/Xc9qbVr7rAqfDQOU-primary.webp); background-size: cover; background-position: center center;" alt="Stamford American International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Stamford+American+International+School" class="btn btn-primary s-btn">Stamford American International School</a></p>
@@ -100,7 +100,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/SDRy6a34Jx3GtsAU-primary.jpg); background-size: cover; background-position: center center;" alt="Singapore American School">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/SDRy6a34Jx3GtsAU-primary.webp); background-size: cover; background-position: center center;" alt="Singapore American School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Singapore+American+School" class="btn btn-primary s-btn">Singapore American School</a></p>

@@ -74,7 +74,7 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/4gnw5KweQKKuCRvU-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/4gnw5KweQKKuCRvU-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/international-schools-hk" class="btn btn-primary s-btn">International Schools in Hong Kong</a></p>
@@ -86,7 +86,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/UcbZ0JQSOU0FkUCm-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/UcbZ0JQSOU0FkUCm-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/a-level-schools-in-hk" class="btn btn-primary s-btn">GCE A Level Schools in Hong Kong</a></p>
@@ -98,7 +98,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/a60Zu097SHsOnYLG-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/a60Zu097SHsOnYLG-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/international-schools-hk/anglo-chinese-schools-hk" class="btn btn-primary s-btn">Anglo Chinese International Schools in Hong Kong</a></p>
@@ -110,7 +110,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/a60Zu097SHsOnYLG-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/a60Zu097SHsOnYLG-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/primary-schools-hk" class="btn btn-primary s-btn">Primary Schools in Hong Kong</a></p>
@@ -122,7 +122,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/hzTHyv0ztXbMVUfP-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/hzTHyv0ztXbMVUfP-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/secondary-schools-hk" class="btn btn-primary s-btn">Secondary Schools in Hong Kong</a></p>
@@ -134,7 +134,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/wNwcXEm1Vg938Ggi-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/wNwcXEm1Vg938Ggi-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/boarding-schools-hk" class="btn btn-primary s-btn">Boarding Schools in Hong Kong</a></p>
@@ -158,7 +158,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/AG6cn8nfonppXYGp-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/AG6cn8nfonppXYGp-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/international-schools-hk/american-schools-hk" class="btn btn-primary s-btn">American International Schools in Hong Kong</a></p>
@@ -170,7 +170,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/8FpTynmN8NjnjOQu-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/8FpTynmN8NjnjOQu-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/international-schools-hk/ib-schools-sg" class="btn btn-primary s-btn">International Baccalaureate (IB) Schools in Singapore</a></p>
@@ -182,7 +182,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/eRhEeqoNyvSUnfjD-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/eRhEeqoNyvSUnfjD-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/international-schools-hk/french-schools-hk" class="btn btn-primary s-btn">French International Schools in Hong Kong</a></p>
@@ -194,7 +194,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/V0EGDK4yKzuzTlSM-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/V0EGDK4yKzuzTlSM-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/igcse-schools-hk" class="btn btn-primary s-btn">IGCSE Schools in Hong Kong</a></p>
@@ -206,7 +206,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/VMav4UdFKC4ybLJp-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/VMav4UdFKC4ybLJp-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/independent-schools-hk" class="btn btn-primary s-btn">Independent Schools in Hong Kong</a></p>
@@ -218,7 +218,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/japanese-intl-schl-ssd-pr.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/japanese-intl-schl-ssd-pr.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/international-schools-hk/japanese-schools-hk" class="btn btn-primary s-btn">Japanese International Schools in Hong Kong</a></p>
@@ -230,7 +230,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(h{{ $imageUrlBase }}school/JVdDqXbH5g0Xe04f-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url(h{{ $imageUrlBase }}school/JVdDqXbH5g0Xe04f-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/edb-schools-hk" class="btn btn-primary s-btn">Education Bureau (EDB) Schools in Hong Kong</a></p>
@@ -254,7 +254,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/VMav4UdFKC4ybLJp-primary.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/VMav4UdFKC4ybLJp-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/private-schools-hk" class="btn btn-primary s-btn">Private Schools in Hong Kong</a></p>
@@ -266,7 +266,7 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/dmps-pr-2.jpg); background-size: cover; background-position: center center;">
+                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/dmps-pr-2.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
                                                 <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/special-school-hk" class="btn btn-primary s-btn">Special School in Hong Kong</a></p>
