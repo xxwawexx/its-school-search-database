@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-lg-9">
                     <p>
-                        IPC schools in Singapore offer this comprehensive curriculum. It is based on the English National Curriculum based on concepts from the UK Key Stages 1 and 2. IPC is creative and thematic. It encourages students to research, discover and ask questions. The IPC's Units of Learning cover art, geography, history, ICT, music, science, technology, language and maths, computers. What is the difference between IPC and other primary years programmes? The IPC Singapore options are listed below with details of what the IPC is. 
+                        IPC schools in Singapore offer this comprehensive curriculum. It is based on the English National Curriculum based on concepts from the UK Key Stages 1 and 2. IPC is creative and thematic. It encourages students to research, discover and ask questions. The IPC's Units of Learning cover art, geography, history, ICT, music, science, technology, language and maths, computers. What is the difference between IPC and other primary years programmes? The IPC Singapore options are listed below with details of what the IPC is.
                     </p>
 
                     <h2>
@@ -56,7 +56,7 @@
                         Schools in Singapore, IPC Singapore list is not very extensive but there are some very good options. <br>
 
                         Astor International School, Dynamics International School, Hollandse School (HSL); Invictus International School; Middleton International School; Overseas Family School; Sir Manasseh Meyer International School; St Joseph’s Institution International; The Grange Institution; The Winstedt School <br>
-	 
+
                         Now that you have the list of IPC Singapore schools.  Let’s look at what is offered in an IPC school. All the IPC’s thematic units of learning are designed to appeal to children’s interests and teach them about the world around them. The IPC is suitable for children of all abilities and all learning styles. It encourages group and individual learning. IPC is the way it develops students’ traits and prepares them with transferrable skills. One of the critical aspects of an IPC programme is that it focuses on developing students as global citizens and internationally-minded individuals. What else do you need to know about the IPC? The best part is that it is flexible and adaptable. It can be integrated with other curricula. Each school in Singapore is part of an international community of schools, teachers and learners. The schools encourage outstanding communication, collaboration and reflection among teachers and students.
                     </p>
 
@@ -68,9 +68,9 @@
                         If you are considering enrolling your child in an IPC school in Singapore, there are a few factors to remember. The following checklist could be helpful when choosing an IPC school. <br>
                         -Holistic education: ensure that the school offers the curriculum and a wealth of opportunities: extra-curricular, outdoor pursuits, sports competitions, excursions and other clubs. <br>
                         -Inclusivity: being part of an inclusive learning environment is essential for children. Check with the school how they support learning needs or any other support a child might need. <br>
-                        -Accreditation: For any IPC school, these are imperative to check. Having these qualifications ensures that the school takes their teaching approach seriously. We highly recommend involving children in the school search decision. It is essential to use a critical eye when choosing and gain as much understanding of all your preferred schools. 
+                        -Accreditation: For any IPC school, these are imperative to check. Having these qualifications ensures that the school takes their teaching approach seriously. We highly recommend involving children in the school search decision. It is essential to use a critical eye when choosing and gain as much understanding of all your preferred schools.
                     </p>
-                    
+
                     <section>
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
@@ -184,7 +184,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/XD6FBVV95EsGV71d-primary.jpg); background-size: cover; background-position: center center;" alt="Middleton International School - Tampine Campus">
@@ -255,7 +255,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -274,7 +274,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -307,15 +307,15 @@
                         </a>
 
                         <hr>
-                        
+
                         <a href="https://school.itseducation.asia/">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -361,11 +361,13 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
+
+    <link rel="canonical" href="https://itseducation.asia/school/singapore/international-schools-sg/ipc-schools-sg" />
 
     <style>
         /* landing page */
@@ -399,7 +401,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;
@@ -540,10 +542,10 @@
 
 @section('local-scripts')
 
-    <script src="/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 @endsection

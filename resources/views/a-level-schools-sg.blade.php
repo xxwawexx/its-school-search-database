@@ -240,6 +240,8 @@
 
     <link rel="stylesheet" href="{{ custom_asset('admin/vendor/select2/css/select2.css') }}"/>
 
+    <link rel="canonical" href="https://itseducation.asia/school/singapore/a-level-schools-sg" />
+
     <style>
         /* landing page */
 

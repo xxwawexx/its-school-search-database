@@ -49,7 +49,7 @@
                     </p>
 
                     <h2>
-                        List of Top Special Needs Education in Hong Kong 
+                        List of Top Special Needs Education in Hong Kong
                     </h2>
                     <p>
                         The Special Needs Education at International school are as follows: <br>
@@ -63,7 +63,7 @@
                     </p>
 
                     <h2>Criteria for Choosing a Special Needs School in Hong Kong</h2>
-                    
+
                     <p>
                         Depending on the level of support your child needs, there are many institutions to choose from in Hong Kong. Special needs education in Hong Kong has profoundly improved over the past ten years, and schools are realizing that in-house support is essential for their diverse community of students. You must decide if you want to send your child to a mainstream school with relevant facilities or a specialized school tailored to their needs.
                     </p>
@@ -304,7 +304,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -323,7 +323,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -356,15 +356,15 @@
                         </a>
 
                         <hr>
-                        
+
                         <a href="https://school.itseducation.asia/">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -410,11 +410,13 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
+
+    <link rel="canonical" href="https://itseducation.asia/school/hong-kong/special-school-hk" />
 
     <style>
         /* landing page */
@@ -448,7 +450,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;
@@ -589,10 +591,10 @@
 
 @section('local-scripts')
 
-    <script src="/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 @endsection

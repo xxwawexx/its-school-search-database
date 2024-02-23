@@ -275,3 +275,10 @@ Route::get('/singapore/moe-schools-sg', function () {
     ];
     return view('/moe-schools-sg')->with($data);
 });
+
+Route::get('/singapore/international-schools-sg/japanese-schools-sg', function () {
+    $data = [
+        'title' => 'International Primary Curriculum (IPC) Schools in Singapore'
+    ];
+    return view('/international-japanese-schools-sg')->with($data);
+});

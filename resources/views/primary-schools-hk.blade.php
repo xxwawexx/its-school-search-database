@@ -52,7 +52,7 @@
                     <p>
                         The top primary schools in Hong Kong are the long-established schools which are in high demand. To name a few, English Schools Foundation (ESF), the Chinese International School (CIS), the Canadian International School (CDNIS), the German Swiss International School (GSIS), the Hong Kong International School (HKIS), and Kellett. Some of these schools have been in operation for 50+ years. Apart from these schools, some other new primary schools have gained great popularity for their unique teaching community and stellar programmes. Sending your child to a Hong Kong primary school is an outstanding experience, and the education in all of the schools is impressive.
                     </p>
-                    
+
                     <h2>
                         Factors to Consider for School Admission in Hong Kong
                     </h2>
@@ -70,7 +70,7 @@
                     </p>
 
                     <p>
-                        The following tests and assessments are similar among most schools. 
+                        The following tests and assessments are similar among most schools.
                         <ul>
                             <li>Pre-K-grade 2 (Year 3):</li>
                             <li>In-person screening assessment and play-based/group interview</li>
@@ -1041,7 +1041,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -1060,7 +1060,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -1093,15 +1093,15 @@
                         </a>
 
                         <hr>
-                        
+
                         <a href="https://school.itseducation.asia/">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -1147,11 +1147,13 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
+
+    <link rel="canonical" href="https://itseducation.asia/school/hong-kong/primary-schools-hk" />
 
     <style>
         /* landing page */
@@ -1185,7 +1187,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;
@@ -1326,10 +1328,10 @@
 
 @section('local-scripts')
 
-    <script src="/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 @endsection

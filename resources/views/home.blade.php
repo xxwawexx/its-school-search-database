@@ -473,6 +473,8 @@
         }
     </style>
 
+    <link rel="canonical" href="https://itseducation.asia/school/
+
 @endsection
 
 @section('local-scripts')

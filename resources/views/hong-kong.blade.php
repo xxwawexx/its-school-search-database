@@ -578,6 +578,8 @@
         }
     </style>
 
+    <link rel="canonical" href="https://itseducation.asia/school/hong-kong" />
+
 @endsection
 
 @section('local-scripts')

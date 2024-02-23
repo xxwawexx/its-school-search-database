@@ -57,7 +57,7 @@
                     </h2>
 
                     <p>
-                        Primary school ranking Singapore: You may wonder what this is. In Singapore, there are no ranking or league tables for international schools. However, there is a primary school ranking in the Singapore system for local schools. International primary schools are developing their popularity based on the strength of their academics, curricula, co-curriculars, affordability, the quality of teaching and learning facilities, and word of mouth. Here is a list of 15 of the top primary schools in Singapore. Why only 15? We’ve selected only international primary schools in this article and only 10. These are the reasons: teaching quality, early years programmes, class sizes, specific age-appropriate facilities, teaching quality, learning environment and language programmes. *We reserve the right to update this list. 
+                        Primary school ranking Singapore: You may wonder what this is. In Singapore, there are no ranking or league tables for international schools. However, there is a primary school ranking in the Singapore system for local schools. International primary schools are developing their popularity based on the strength of their academics, curricula, co-curriculars, affordability, the quality of teaching and learning facilities, and word of mouth. Here is a list of 15 of the top primary schools in Singapore. Why only 15? We’ve selected only international primary schools in this article and only 10. These are the reasons: teaching quality, early years programmes, class sizes, specific age-appropriate facilities, teaching quality, learning environment and language programmes. *We reserve the right to update this list.
                     </p>
 
                     <p>
@@ -66,7 +66,7 @@
                             Brighton College <br>
                             Canadian International School  <br>
                             Dulwich College (Singapore) <br>
-                            Dover Court International School <br> 
+                            Dover Court International School <br>
                             EtonHouse International School <br>
                             GESS – International School  <br>
                             Invictus International School  <br>
@@ -81,7 +81,7 @@
                     </p>
 
                     <p>
-                        These schools offer specialized programmes for primary-aged students, boutique learning environments for nurturing atmospheres, and impressive language programmes (bilingual and dual). They also have some of the world’s largest early learning centres, which are Reggio Emilia-inspired designed with purposefully play programmes alongside the EYFS Framework. They provide a personalized and well-rounded education. 
+                        These schools offer specialized programmes for primary-aged students, boutique learning environments for nurturing atmospheres, and impressive language programmes (bilingual and dual). They also have some of the world’s largest early learning centres, which are Reggio Emilia-inspired designed with purposefully play programmes alongside the EYFS Framework. They provide a personalized and well-rounded education.
                     </p>
 
                     <h2>
@@ -740,7 +740,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -759,7 +759,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -792,15 +792,15 @@
                         </a>
 
                         <hr>
-                        
+
                         <a href="https://school.itseducation.asia/">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -846,11 +846,13 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
+
+    <link rel="canonical" href="https://itseducation.asia/school/singapore/primary-schools-sg" />
 
     <style>
         /* landing page */
@@ -884,7 +886,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;
@@ -1025,10 +1027,10 @@
 
 @section('local-scripts')
 
-    <script src="/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 @endsection
