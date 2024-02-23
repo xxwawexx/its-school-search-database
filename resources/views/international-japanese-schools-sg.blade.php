@@ -8,7 +8,7 @@
         <div id="h-div" class="position-absolute text-light font-weight-bolder text-right">
             <header>
                 <h1>
-                    <span class="h1_titles">Finding the Best Ministry of Education Schools in Singapore</span><br>
+                    <span class="h1_titles">Japanese International Schools in Singapore</span><br>
                 </h1>
             </header>
         </div>
@@ -22,7 +22,7 @@
 
                             <li><a href="{{ $urlBase }}singapore">Singapore</a></li>
 
-                            <li class="active">Ministry of Education (MOE) Schools in Singapore</li>
+                            <li class="active">Japanese International Schools in Singapore</li>
                         </ul>
                     </div>
                 </div>
@@ -34,58 +34,41 @@
         <div class="container container-lg py-5">
             <div class="row">
                 <div class="col-lg-9">
-                    <p>
-                        The MOE (Ministry of Education) sets, monitors and stipulates the curriculum and school policies for all local, government-owned schools in Singapore. There are six years of primary (ages 7-12) - students who complete PSLE (Primary School Leaving Examinations) for entry to Secondary Schools. The independent schools are the most highly sought-after. Secondary school admissions at 12 years old are stringent and selective for these schools. Students entering the MOE secondary school list are placed in the Express, Normal (Academic), Normal (Technical) or Integrated Programme (IP) streams. Would you like to know more about MOE secondary school list and what is offered? Read on to learn more.
-                    </p>
-
-                    <h2>
-                        List of Top MOE Schools in Singapore
-                    </h2>
-
-                    <p>
-                        Singapore has several types of secondary schools. The schools typically cover a wide range of academic subjects and non-academic activities. Here is the MOE List of Schools in Singapore. <br>
-                        <ol>
-                            <li>
-                                Government schools: These schools are run by the Ministry of Education (MOE) and follow the national curriculum.
-                            </li> <br>
-
-                            <li>
-                                Government-aided schools: These are schools set up by various community organizations to cater to communities and the children’s educational needs. They must maintain the same education standards as Government schools.
-                            </li> <br>
-
-                            <li>
-                                Specialized schools: These offer specialized programmes in arts, sports, and technical education.
-                            </li>
-                        </ol>
-
-                        At the secondary level, three courses are available for students’. <br>
-                        (1)Express Course. This four-year course leads to the Singapore-Cambridge General Certificate of Education (GCE) O-Level certification. (2) There is a Normal (Academic) Course. This four-year course leads to the GCE N(A)- Level certification. Students who perform well may progress to a one-year Polytechnic Foundation Program or a two-year Direct Entry Scheme through the  Polytechnic Programme. <br><br>
-                        Public schools in Singapore are subsidised by the government. Tuition fees range from SGD5 to SGD 1,770 per month. However, parents are subjected to minimum expenses, such as uniforms, transport and school materials.
-                    </p>
-
-                    <h2>
-                        Criteria for Choosing a MOE Schools in Singapore
-                    </h2>
-
-                    <p>
-                        At the secondary level, matching the school to a child's interests, academic abilities, skills, and strengths is very important.  Explore schools that offer the courses your child wants to pursue and examine the programmes that will develop their talents. Visit schools' websites and Open Houses to understand the different schools' culture, ethos, and learning environment. Depending on the PSLE scores, students are offered a course option. Some students might only be eligible for one course and need help choosing another path. If eligible for two tracks, they can only select 1 method before submitting their school preferences. This is where additional time is required to examine what schools are suitable and what will be the right pathway.
-                    </p>
-
-                    <section>
+                    {{-- <section>
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/KPUi4w941Xff3q2m-primary.jpg); background-size: cover; background-position: center center;" alt="One World International School - Nanyang Campus">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/VMav4UdFKC4ybLJp-primary.jpg); background-size: cover; background-position: center center;" alt="Independent Schools Foundation - Pre-school Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/One+World+International+School+-+Nanyang+Campus" class="btn btn-primary s-btn">One World International School - Nanyang Campus</a></p>
+                                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/igcse-schools-hk")
+                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Independent+Schools+Foundation+-+Pre-school+Campus" class="btn btn-primary s-btn">Independent Schools Foundation - Pre-school Campus</a></p>
+                                            @else
+                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Independent+Schools+Foundation+-+Pre-school+Campus" class="btn btn-primary s-btn">Independent Schools Foundation - Pre-school Campus</a></p>
+                                            @endif
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-12">
+                                <div class="outer-box mx-auto my-2">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/bMZA1CeWuHRQlmuj-primary.jpg); background-size: cover; background-position: center center;" alt="Independent Schools Foundation - Academy">
+                                        <div class="content-wrap">
+                                            <div class="sub-content-wrap">
+                                            @if( url()->current() == "https://school.itseducation.asia/hong-kong/igcse-schools-hk")
+                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Independent+Schools+Foundation+-+Academy" class="btn btn-primary s-btn">Independent Schools Foundation - Academy</a></p>
+                                            @else
+                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Independent+Schools+Foundation+-+Academy" class="btn btn-primary s-btn">Independent Schools Foundation - Academy</a></p>
+                                            @endif
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> --}}
                 </div>
 
                 <div class="col-xl-3 col-lg-4 col-md-4">
@@ -219,7 +202,7 @@
 
     <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
 
-    <link rel="canonical" href="https://itseducation.asia/school/singapore/moe-schools-sg" />
+    <link rel="canonical" href="https://itseducation.asia/school/singapore/international-schools-sg/japanese-schools-sg" />
 
     <style>
         /* landing page */

@@ -196,6 +196,8 @@
 
     <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
 
+    <link rel="canonical" href="https://itseducation.asia/school/hong-kong/international-schools-hk/anglo-chinese-schools-hk" />
+
     <style>
         /* landing page */
 

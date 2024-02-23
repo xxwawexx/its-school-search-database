@@ -55,13 +55,13 @@
                     <p>
                         There is one Japanese International School Hong Kong and one Japanese School located in two different locations. Hong Kong Japanese School Limited operates all campuses. Japanese International School HK opened in 1997 and is a small-sized, unique school in a beautiful green area of Tai Po in Hong Kong. The school environment is friendly, inviting and nurturing, and teachers are committed to education. It is an authorized IB ‘World School’, offering the PYP (Primary Years Programme). The student body is mixed, consisting of 30+ nationalities. The academic program provides a broad range of subjects; alongside the IB subjects, a range of creative activities, environmental and community programs and outdoor education are all significant parts of the education. After Year 6, around 50% of students transition to International College Hong Kong (ICHK) Secondary school. JIS is a partner school with ICHK Secondary.
                     </p>
-                        
+
                     <p>
                         The Hong Kong Japanese School in Happy Valley offers primary and secondary education. It is typically for Japanese-speaking children. The school uses the Japanese school calendar and curriculum. The school caters for students aged 5-16, and there are about 500+ students at both campuses (Primary and secondary). The level of Japanese education is very high by world standards. In particular in mathematics and science.
                     </p>
 
                     <h2>Criteria for Choosing a Japanese International School in Hong Kong</h2>
-                    
+
                     <p>
                         No particular factors exist for choosing a Japanese International School (JIS). Do you want your child to learn Japanese through all subjects and learn through the Japanese curriculum? If yes, the Japanese school in Happy Valley is the only option. Or choose the Japanese International School Hong Kong and learn through English but also have the advantage of studying Japanese. Admission to JIS consists of an interview with the school Principal and a group of class teachers. The main requirement for entry to the school is a student’s ability to access the curriculum using English, and of course, they can also study Japanese as a second language. Interviews for Reception and Primary 1 places are held in January each year and as group interviews. These interviews usually last for around 1 hour. Reception and Primary 1 applications must be submitted at least the year before the required entry.
                     </p>
@@ -106,7 +106,7 @@
                             <img src="https://itseducation.asia/assets/images/Web-banner-for-ITS-Asia-Education1_21-02-22.jpg" alt="North London Collegiate School Singapore">
                         </a>
                     </div>
-                    
+
                     <p class="mt-4 mt-md-0"></p>
                     <div id="sb-bc" class="d-none bg-white atom-dv">
                         <a href="https://singapore.dulwich.org/" target="_blank">
@@ -125,7 +125,7 @@
                             <img width="100%" src="https://itseducation.asia/assets/images/yci-lab.png" alt="YCI Lab banner">
                         </a>
                     </div>
-                    
+
                     <div id="sb-menu" class="bg-white">
                         <a href="https://itseducation.asia/article-library">
                             <button class="sb_button" type="button" data-hover="View All List Of Articles" data-active="Article Librarys">
@@ -158,15 +158,15 @@
                         </a>
 
                         <hr>
-                        
+
                         <a href="https://school.itseducation.asia/">
                             <button class="sb_button" type="button" data-hover="Find Your School" data-active="School Search Database">
                                 <span><i class="fa fa-home" aria-hidden="true"></i> School Search Database</span>
                             </button>
                         </a>
                     </div>
-                    
-                    
+
+
                     <div class="card rounded-10">
                         <div class="card-body bg-dark text-light p-0" style="background-color: #343a40 !important;">
                             <blockquote class="blockquote mb-0 px-3 pt-3">
@@ -212,11 +212,13 @@
 
 @section('local-assets')
 
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="/vendor/rs-plugin/css/navigation.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/layers.css">
+    <link rel="stylesheet" href="{{ $urlBase }}vendor/rs-plugin/css/navigation.css">
 
-    <link rel="stylesheet" href="/admin/vendor/select2/css/select2.css"/>
+    <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/select2/css/select2.css"/>
+
+    <link rel="canonical" href="https://itseducation.asia/school/hong-kong/international-schools-hk/japanese-schools-hk" />
 
     <style>
         /* landing page */
@@ -250,7 +252,7 @@
         .position-absolute {
         position: absolute !important;
         }
-        
+
         header span {
         padding: 2px 10px;
         color: #fff;
@@ -391,10 +393,10 @@
 
 @section('local-scripts')
 
-    <script src="/vendor/isotope/jquery.isotope.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="/js/views/view.contact.js"></script>
+    <script src="{{ $urlBase }}vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="{{ $urlBase }}vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{ $urlBase }}js/views/view.contact.js"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 
 @endsection

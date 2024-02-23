@@ -36,3 +36,5 @@
 <!-- Theme Custom CSS -->
 <link href="{{ custom_asset('css/custom.css') }}" rel="stylesheet">
 
+<meta name="google-site-verification" content="IJYj_qgKmnhsl0kvWzhiI_q-wDHGz8KT4WiktlPMpV4" />
+

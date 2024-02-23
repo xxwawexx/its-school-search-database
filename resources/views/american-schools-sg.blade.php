@@ -244,6 +244,8 @@
 
     <link rel="stylesheet" href="{{  $urlBase }}admin/vendor/select2/css/select2.css"/>
 
+    <link rel="canonical" href="https://itseducation.asia/school/singapore/international-schools-sg/american-schools-sg" />
+
     <style>
         /* landing page */
 
