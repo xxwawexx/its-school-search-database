@@ -28,12 +28,27 @@
 <!-- Theme Initialization Files -->
 <script src="{{ custom_asset('js/theme.init.js') }}"></script>
 
-{{-- <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43810120-1"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-43810120-1', { 'optimize_id': 'GTM-58CKCXN'});
-</script> --}} <!-- commented by alex -->
+<script type = "application/ld+json" >
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "ITS Education Asia",
+        "url": "https://itseducation.asia/",
+        "logo": "https://itseducation.asia/assets/images/its-logo-big-03-25-22-min.webp",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "4/F.",
+            "addressLocality": "BOC Group Life Assurance Tower 134-136 Des Voeux Road",
+            "addressRegion": "Hong Kong",
+            "postalCode": "134-13",
+            "addressCountry": "China"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "contact",
+            "telephone": "85221163916",
+            "email": "info@itseducation.asia"
+        },
+        "sameAs": ["https://www.instagram.com/itseducationasia/", "https://www.facebook.com/Itseducationasia", "https://www.linkedin.com/company/its-education-asia/"]
+    }
+</script>
