@@ -10,16 +10,6 @@
 <!-- Head Libs -->
 <script src="{{ custom_asset('vendor/modernizr/modernizr.min.js') }}"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-{{-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43810120-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-43810120-2');
-</script> --}} <!-- commented by alex -->
-
 <!-- Main CSS -->
 <link href="{{ custom_asset('css/app.css') }}" rel="stylesheet">
 
@@ -36,5 +26,21 @@
 <!-- Theme Custom CSS -->
 <link href="{{ custom_asset('css/custom.css') }}" rel="stylesheet">
 
+<!-- Google Search Console -->
 <meta name="google-site-verification" content="IJYj_qgKmnhsl0kvWzhiI_q-wDHGz8KT4WiktlPMpV4" />
 
+<!-- Google Analytics and Google TM Code -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E4D2VWKZN4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E4D2VWKZN4');
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43810120-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-43810120-1');
+</script>
