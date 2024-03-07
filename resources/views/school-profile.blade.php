@@ -816,7 +816,7 @@
     <link rel="stylesheet" href="{{ $urlBase }}admin/vendor/jquery-ui/jquery-ui.theme.css"/>
     <link rel="stylesheet" href="{{ $urlBase }}vendor/simple-line-icons/css/simple-line-icons.min.css">
 
-    <link rel="canonical" href="{{ $urlBase . request()->path() }}" />
+    <link rel="canonical" href="{{ $fullPath . request()->path() }}" />
 
     <style>
         #sc-profile-wrapper td a {
