@@ -29,7 +29,14 @@ class AppServiceProvider extends ServiceProvider
             $imageUrlBase = $isSchoolSubPath ? '/school/img/' : '/img/';
             $urlBase = $isSchoolSubPath ? '/school/' : '/';
 
-            $view->with(compact('isSchoolSubPath', 'imageUrlBase', 'urlBase'));
+            $isLocal = app()->environment('local');
+            if ($isLocal) {
+                $fullPath = 'http://localhost:8000';
+            } else {
+                $fullPath = $isSchoolSubPath ? 'https://itseducation.asia/school/' : 'https://school.itseducation.asia/';
+            }
+
+            $view->with(compact('isSchoolSubPath', 'imageUrlBase', 'urlBase', 'fullPath'));
         });
     }
 }
