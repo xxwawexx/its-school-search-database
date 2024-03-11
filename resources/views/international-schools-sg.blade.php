@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-lg-9">
                     <p>
-                        Finding the best international schools in Singapore is one of the most important decisions any parent will make when relocating. How do you choose? What is available? How can my child get accepted? All of these questions will be on your mind. The international schools in Singapore offer a multicultural environment with students from diverse backgrounds and countries – many provide dual education pathways. The curricula range from internationally recognised Australian, American, and British National Curriculum and the International Baccalaureate to single-country programmes.
+                        Finding the best international schools in Singapore is one of the most important decisions any parent will make when relocating. How do you choose? What is available? How can my child get accepted? All of these questions will be on your mind. The international schools in Singapore offer a multicultural environment with students from diverse backgrounds and countries – many provide dual education pathways. The curricula range from internationally recognised Australian, American, and British National Curriculum and the <a href="https://itseducation.asia/school/singapore/international-schools-sg/iB-schools-sg">International Baccalaureate</a> to single-country programmes.
                     </p>
 
                     <p>
@@ -57,7 +57,7 @@
                     </h2>
 
                     <p>
-                        The schools in Singapore for  international students cater to diverse cultures, nationalities and ethnicities.National Curriculum Schools offer a syllabus similar to their home country’s education. Examples are the British National Curriculum, French, German, and American. Hybrid Curriculum Schools offer a dual curriculum: a combination of home country curriculum with one or more international curricula. Examples include the German European School Singapore, Stamford American School and the Australian International School. The schools listed below offer a solid reputation, well-rounded learning experience, and vital co-curricular programmes. Fees are high, but reputation outbeats this, and most schools are international. Here is the list of international schools in Singapore.
+                        The schools in Singapore for  international students cater to diverse cultures, nationalities and ethnicities.National Curriculum Schools offer a syllabus similar to their home country’s education. Examples are the British National Curriculum, French, German, and American. Hybrid Curriculum Schools offer a dual curriculum: a combination of home country curriculum with one or more international curricula. Examples include the <a href="https://itseducation.asia/school/singapore/german-schools-sg">German European School Singapore</a>, Stamford American School and the Australian International School. The schools listed below offer a solid reputation, well-rounded learning experience, and vital co-curricular programmes. Fees are high, but reputation outbeats this, and most schools are international. Here is the list of international schools in Singapore.
                     </p>
 
                     <p>
