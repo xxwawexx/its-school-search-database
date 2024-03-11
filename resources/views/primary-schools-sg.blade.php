@@ -49,7 +49,7 @@
                     </p>
 
                     <p>
-                        There are more than 90 + primary schools in Singapore, and most offer a ‘Through-Train’ education. These schools provide a choice of IB, UK, US, Australian, German, French and Singapore curricula. There is something to suit everyone’s budget, and each school offers something unique. You don’t just have one choice; there are many.
+                        There are more than 90 + primary schools in Singapore, and most offer a ‘Through-Train’ education. These schools provide a choice of IB, UK, US, Australian, German, <a href="https://itseducation.asia/school/school-profile/International+French+School">French</a> and Singapore curricula. There is something to suit everyone’s budget, and each school offers something unique. You don’t just have one choice; there are many.
                     </p>
 
                     <h2>
@@ -57,7 +57,7 @@
                     </h2>
 
                     <p>
-                        Primary school ranking Singapore: You may wonder what this is. In Singapore, there are no ranking or league tables for international schools. However, there is a primary school ranking in the Singapore system for local schools. International primary schools are developing their popularity based on the strength of their academics, curricula, co-curriculars, affordability, the quality of teaching and learning facilities, and word of mouth. Here is a list of 15 of the top primary schools in Singapore. Why only 15? We’ve selected only international primary schools in this article and only 10. These are the reasons: teaching quality, early years programmes, class sizes, specific age-appropriate facilities, teaching quality, learning environment and language programmes. *We reserve the right to update this list.
+                        Primary school ranking Singapore: You may wonder what this is. In Singapore, there are no ranking or league tables for <a href="https://itseducation.asia/school/hong-kong/international-schools-hk">international schools</a>. However, there is a primary school ranking in the Singapore system for local schools. International primary schools are developing their popularity based on the strength of their academics, curricula, co-curriculars, affordability, the quality of teaching and learning facilities, and word of mouth. Here is a list of 15 of the top primary schools in Singapore. Why only 15? We’ve selected only international primary schools in this article and only 10. These are the reasons: teaching quality, early years programmes, class sizes, specific age-appropriate facilities, teaching quality, learning environment and language programmes. *We reserve the right to update this list.
                     </p>
 
                     <p>
