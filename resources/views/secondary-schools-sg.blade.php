@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-lg-9">
                     <p>
-                        Are you looking for the top secondary school in Singapore? There are not just those catering to Singaporean nationals; there are world-renowned international secondary schools. The information which follows highlights the best local and international schools in Singapore. Beyond the local Singaporean curriculum with the IBDP pathway, there are French, Australian, Swiss, German, Dutch, Indian, Korean and Japanese. Here is how you can select the best secondary school in Singapore.
+                        Are you looking for the top secondary school in Singapore? There are not just those catering to Singaporean nationals; there are world-renowned international secondary schools. The information which follows highlights the best local and <a href="https://itseducation.asia/school/hong-kong/international-schools-hk">international schools in Singapore</a>. Beyond the local Singaporean curriculum with the IBDP pathway, there are French, Australian, Swiss, German, Dutch, Indian, Korean and <a href="https://itseducation.asia/school/singapore/japanese-schools-sg">Japanese</a>. Here is how you can select the best secondary school in Singapore.
                     </p>
 
                     <h2>
