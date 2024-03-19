@@ -282,3 +282,31 @@ Route::get('/singapore/international-schools-sg/japanese-schools-sg', function (
     ];
     return view('/international-japanese-schools-sg')->with($data);
 });
+
+Route::get('/singapore/ip-schools-sg', function () {
+    $data = [
+        'title' => 'Integrated Programme (IP) Schools in Singapore'
+    ];
+    return view('/ip-schools-sg')->with($data);
+});
+
+Route::get('/singapore/japanese-schools-sg', function () {
+    $data = [
+        'title' => 'Japanese Language Schools in Singapore'
+    ];
+    return view('/japanese-schools-sg')->with($data);
+});
+
+Route::get('/top-schools-hong-kong', function () {
+    $data = [
+        'title' => 'ITS Education Asia - Top Schools in Hong Kong'
+    ];
+    return view('top-schools-hong-kong')->with($data);
+});
+
+Route::get('/top-schools-singapore', function () {
+    $data = [
+        'title' => 'ITS Education Asia - Top Schools in Singapore'
+    ];
+    return view('top-schools-singapore')->with($data);
+});

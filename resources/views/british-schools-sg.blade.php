@@ -19,10 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                                <a href="{{ $urlBase }}school/">Home</a>
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
 
-                            <li><a href="{{ $urlBase }}school/singapore">Singapore</a></li>
+                            <li><a href="{{ $urlBase }}singapore">Singapore</a></li>
 
                             <li class="active">British International Schools in Singapore</li>
                         </ul>
@@ -81,10 +81,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/DRY4Q9q076igbx6T-primary.jpg); background-size: cover; background-position: center center;" alt="North London Collegiate School (Singapore)">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/DRY4Q9q076igbx6T-primary.webp); background-size: cover; background-position: center center;" alt="North London Collegiate School (Singapore)">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/North+London+Collegiate+School+(Singapore)" class="btn btn-primary s-btn">North London Collegiate School (Singapore)</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/North+London+Collegiate+School+(Singapore)" class="btn btn-primary s-btn">North London Collegiate School (Singapore)</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,10 +93,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Jk4n1dRGVQHFE1cL-primary.jpg); background-size: cover; background-position: center center;" alt="Tanglin Trust School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Jk4n1dRGVQHFE1cL-primary.webp); background-size: cover; background-position: center center;" alt="Tanglin Trust School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Tanglin+Trust+School" class="btn btn-primary s-btn">Tanglin Trust School</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Tanglin+Trust+School" class="btn btn-primary s-btn">Tanglin Trust School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -105,10 +105,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/1pBTZQRhxQfJkOAv-primary.jpg); background-size: cover; background-position: center center;" alt="Sir Manasseh Meyer International School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/1pBTZQRhxQfJkOAv-primary.webp); background-size: cover; background-position: center center;" alt="Sir Manasseh Meyer International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Sir+Manasseh+Meyer+International+School" class="btn btn-primary s-btn">Sir Manasseh Meyer International School</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Sir+Manasseh+Meyer+International+School" class="btn btn-primary s-btn">Sir Manasseh Meyer International School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -256,7 +256,7 @@
 
         #skl-div {
         position: relative;
-        background: url(https://itseducation.asia/school/img/school-rev-bg1.jpg);
+        background: url(https://itseducation.asia/school/img/school-rev-bg1.webp);
             background-position-x: 0%;
             background-position-y: 0%;
             background-repeat: repeat;

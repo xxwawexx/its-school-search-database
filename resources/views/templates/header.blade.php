@@ -41,7 +41,7 @@
                                             <span class="ws-nowrap">Pathways To Learning... Since 2005</span>
                                         </li>
                                         <li class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-sm-show">
-                                            <a class="nav-link" href="{{ config('app.main_url') . 'contact.php' }}">
+                                            <a class="nav-link" href="https://itseducation.asia/contact">
                                                 <button type="button" class="btn btn-outline btn-gradient mb-2"
                                                         style="padding-top: 2px;padding-bottom: 2px;">Contact Us
                                                 </button>

@@ -19,10 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                                <a href="{{ $urlBase }}school/">Home</a>
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
 
-                            <li><a href="{{ $urlBase }}school/singapore">Singapore</a></li>
+                            <li><a href="{{ $urlBase }}singapore">Singapore</a></li>
 
                             <li class="active">German language Schools in Singapore</li>
                         </ul>

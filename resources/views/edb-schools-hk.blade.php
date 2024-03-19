@@ -19,10 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                                <a href="{{ $urlBase }}school/">Home</a>
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
 
-                            <li><a href="{{ $urlBase }}school/hong-kong">Hong Kong</a></li>
+                            <li><a href="{{ $urlBase }}hong-kong">Hong Kong</a></li>
 
 
                             <li class="active">Education Bureau (EDB) Schools in Hong Kong</li>
@@ -96,10 +96,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/JVdDqXbH5g0Xe04f-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus School - Chai Wan Campus">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/JVdDqXbH5g0Xe04f-primary.webp); background-size: cover; background-position: center center;" alt="Invictus School - Chai Wan Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Invictus+School+-+Chai+Wan+Campus" class="btn btn-primary s-btn">Invictus School - Chai Wan Campus</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Invictus+School+-+Chai+Wan+Campus" class="btn btn-primary s-btn">Invictus School - Chai Wan Campus</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -247,7 +247,7 @@
 
         #skl-div {
         position: relative;
-        background: url(https://itseducation.asia/school/img/school-rev-bg1.jpg);
+        background: url(https://itseducation.asia/school/img/school-rev-bg1.webp);
             background-position-x: 0%;
             background-position-y: 0%;
             background-repeat: repeat;
