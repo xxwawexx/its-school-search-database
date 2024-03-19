@@ -19,10 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                                <a href="{{ $urlBase }}school/">Home</a>
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
 
-                            <li><a href="{{ $urlBase }}school/hong-kong">Hong Kong</a></li>
+                            <li><a href="{{ $urlBase }}hong-kong">Hong Kong</a></li>
 
                             <li class="active">French International Schools in Hong Kong</li>
                         </ul>
@@ -78,10 +78,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/eRhEeqoNyvSUnfjD-primary.jpg); background-size: cover; background-position: center center;" alt="French International School - Secondary - International and French Section">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/eRhEeqoNyvSUnfjD-primary.webp); background-size: cover; background-position: center center;" alt="French International School - Secondary - International and French Section">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/French+International+School+-+Secondary+-+International+and+French+Section" class="btn btn-primary s-btn">French International School - Secondary - International and French Section</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/French+International+School+-+Secondary+-+International+and+French+Section" class="btn btn-primary s-btn">French International School - Secondary - International and French Section</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -90,10 +90,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/OtFEAoWtct7LHrfg-primary.jpg); background-size: cover; background-position: center center;" alt="French International School - Reception and Primary">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/OtFEAoWtct7LHrfg-primary.webp); background-size: cover; background-position: center center;" alt="French International School - Reception and Primary">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/French+International+School+-+Reception+and+Primary" class="btn btn-primary s-btn">French International School - Reception and Primary</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/French+International+School+-+Reception+and+Primary" class="btn btn-primary s-btn">French International School - Reception and Primary</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -241,7 +241,7 @@
 
         #skl-div {
         position: relative;
-        background: url(https://itseducation.asia/school/img/school-rev-bg1.jpg);
+        background: url(https://itseducation.asia/school/img/school-rev-bg1.webp);
             background-position-x: 0%;
             background-position-y: 0%;
             background-repeat: repeat;

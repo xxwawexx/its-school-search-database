@@ -19,10 +19,10 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                                <a href="{{ $urlBase }}school/">Home</a>
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
 
-                            <li><a href="{{ $urlBase }}school/hong-kong">Hong Kong</a></li>
+                            <li><a href="{{ $urlBase }}hong-kong">Hong Kong</a></li>
 
                             <li class="active">IGCSE Schools in Hong Kong</li>
                         </ul>
@@ -99,10 +99,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/V0EGDK4yKzuzTlSM-primary.jpg); background-size: cover; background-position: center center;" alt="Nord Anglia International School - Lam Tin Campus">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/V0EGDK4yKzuzTlSM-primary.webp); background-size: cover; background-position: center center;" alt="Nord Anglia International School - Lam Tin Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Nord+Anglia+International+School+-+Lam+Tin+Campus" class="btn btn-primary s-btn">Nord Anglia International School - Lam Tin Campus</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Nord+Anglia+International+School+-+Lam+Tin+Campus" class="btn btn-primary s-btn">Nord Anglia International School - Lam Tin Campus</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -111,10 +111,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/mZUVsvVJjQEPY6N1-primary.jpg); background-size: cover; background-position: center center;" alt="Han Academy">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/mZUVsvVJjQEPY6N1-primary.webp); background-size: cover; background-position: center center;" alt="Han Academy">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Han+Academy" class="btn btn-primary s-btn">Han Academy</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Han+Academy" class="btn btn-primary s-btn">Han Academy</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -125,10 +125,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/SOJWoSEb4NkEh7dM-primary.jpg); background-size: cover; background-position: center center;" alt="International College Hong Kong - Secondary">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/SOJWoSEb4NkEh7dM-primary.webp); background-size: cover; background-position: center center;" alt="International College Hong Kong - Secondary">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/International+College+Hong+Kong+-+Secondary" class="btn btn-primary s-btn">International College Hong Kong - Secondary</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/International+College+Hong+Kong+-+Secondary" class="btn btn-primary s-btn">International College Hong Kong - Secondary</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +140,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/r0nSxGiqhZiO8oRt-primary.jpg); background-size: cover; background-position: center center;" alt="ESF Sha Tin College">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/ESF+Sha+Tin+College" class="btn btn-primary s-btn">ESF Sha Tin College</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/ESF+Sha+Tin+College" class="btn btn-primary s-btn">ESF Sha Tin College</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@
                                     <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/xQO52gppknGwvwOI-primary.jpg); background-size: cover; background-position: center center;" alt="ESF Island School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/ESF+Island+School" class="btn btn-primary s-btn">ESF Island School</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/ESF+Island+School" class="btn btn-primary s-btn">ESF Island School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -161,10 +161,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/8FpTynmN8NjnjOQu-primary.jpg); background-size: cover; background-position: center center;" alt="ESF King George V School - KGV">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/8FpTynmN8NjnjOQu-primary.webp); background-size: cover; background-position: center center;" alt="ESF King George V School - KGV">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/ESF+King+George+V+School+-+KGV" class="btn btn-primary s-btn">ESF King George V School - KGV</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/ESF+King+George+V+School+-+KGV" class="btn btn-primary s-btn">ESF King George V School - KGV</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -173,10 +173,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Q5knXsRIGseo96Kg-primary.jpg); background-size: cover; background-position: center center;" alt="ESF West Island School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/Q5knXsRIGseo96Kg-primary.webp); background-size: cover; background-position: center center;" alt="ESF West Island School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/ESF+West+Island+School" class="btn btn-primary s-btn">ESF West Island School</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/ESF+West+Island+School" class="btn btn-primary s-btn">ESF West Island School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -185,10 +185,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/shffUlN25hIIb2XS-primary.jpg); background-size: cover; background-position: center center;" alt="ITS Tutorial School ">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/shffUlN25hIIb2XS-primary.webp); background-size: cover; background-position: center center;" alt="ITS Tutorial School ">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/ITS+Tutorial+School" class="btn btn-primary s-btn">ITS Tutorial School </a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/ITS+Tutorial+School" class="btn btn-primary s-btn">ITS Tutorial School </a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -197,10 +197,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/c3Tf2wJvNPDjcIoU-primary.jpg); background-size: cover; background-position: center center;" alt="ESF South Island School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/c3Tf2wJvNPDjcIoU-primary.webp); background-size: cover; background-position: center center;" alt="ESF South Island School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/ESF+South+Island+School" class="btn btn-primary s-btn">ESF South Island School </a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/ESF+South+Island+School" class="btn btn-primary s-btn">ESF South Island School </a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -209,10 +209,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/eRhEeqoNyvSUnfjD-primary.jpg); background-size: cover; background-position: center center;" alt="French International School - Secondary - International and French Section">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/eRhEeqoNyvSUnfjD-primary.webp); background-size: cover; background-position: center center;" alt="French International School - Secondary - International and French Section">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/French+International+School+-+Secondary+-+International+and+French+Section" class="btn btn-primary s-btn">French International School - Secondary - International and French Section</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/French+International+School+-+Secondary+-+International+and+French+Section" class="btn btn-primary s-btn">French International School - Secondary - International and French Section</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -221,10 +221,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/G2qPry03IEKkT1XN-primary.jpg); background-size: cover; background-position: center center;" alt="Korean International School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/G2qPry03IEKkT1XN-primary.webp); background-size: cover; background-position: center center;" alt="Korean International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Korean+International+School" class="btn btn-primary s-btn">Korean International School</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Korean+International+School" class="btn btn-primary s-btn">Korean International School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -233,10 +233,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/1yVFwGm675hjkvVk-primary.jpg); background-size: cover; background-position: center center;" alt="Yew Chung International School - Secondary">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/1yVFwGm675hjkvVk-primary.webp); background-size: cover; background-position: center center;" alt="Yew Chung International School - Secondary">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Yew+Chung+International+School+-+Secondary" class="btn btn-primary s-btn">Yew Chung International School - Secondary</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Yew+Chung+International+School+-+Secondary" class="btn btn-primary s-btn">Yew Chung International School - Secondary</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -245,10 +245,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/pmAcR25PLhlma4XZ-primary.jpg); background-size: cover; background-position: center center;" alt="Harrow International School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/pmAcR25PLhlma4XZ-primary.webp); background-size: cover; background-position: center center;" alt="Harrow International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Harrow+International+School" class="btn btn-primary s-btn">Harrow International School</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Harrow+International+School" class="btn btn-primary s-btn">Harrow International School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -257,10 +257,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/JVdDqXbH5g0Xe04f-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus School - Chai Wan Campus">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/JVdDqXbH5g0Xe04f-primary.webp); background-size: cover; background-position: center center;" alt="Invictus School - Chai Wan Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Invictus+School+-+Chai+Wan+Campus" class="btn btn-primary s-btn">Invictus School - Chai Wan Campus</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Invictus+School+-+Chai+Wan+Campus" class="btn btn-primary s-btn">Invictus School - Chai Wan Campus</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -269,10 +269,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/UcbZ0JQSOU0FkUCm-primary.jpg); background-size: cover; background-position: center center;" alt="Discovery Bay International School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/UcbZ0JQSOU0FkUCm-primary.webp); background-size: cover; background-position: center center;" alt="Discovery Bay International School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/Discovery+Bay+International+School" class="btn btn-primary s-btn">Discovery Bay International School</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Discovery+Bay+International+School" class="btn btn-primary s-btn">Discovery Bay International School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -281,10 +281,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/RDg4ORRVS65G0Mme-primary.jpg); background-size: cover; background-position: center center;" alt="YMCA of Hong Kong Christian College">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/RDg4ORRVS65G0Mme-primary.webp); background-size: cover; background-position: center center;" alt="YMCA of Hong Kong Christian College">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/YMCA+of+Hong+Kong+Christian+College" class="btn btn-primary s-btn">YMCA of Hong Kong Christian College</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/YMCA+of+Hong+Kong+Christian+College" class="btn btn-primary s-btn">YMCA of Hong Kong Christian College</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -432,7 +432,7 @@
 
         #skl-div {
         position: relative;
-        background: url(https://itseducation.asia/school/img/school-rev-bg1.jpg);
+        background: url(https://itseducation.asia/school/img/school-rev-bg1.webp);
             background-position-x: 0%;
             background-position-y: 0%;
             background-repeat: repeat;
