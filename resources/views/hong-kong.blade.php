@@ -38,7 +38,7 @@
                         In Hong Kong, as in other regions worldwide, there is a strong emphasis on furnishing quality education. The top schools in Hong Kong are ranked based on various criteria, and many factors and variables should be considered when selecting the best school in Hong Kong.
                     </p>
                     <p>
-                        There are four main types of schools in Hong Kong: public local schools, private schools, international schools and EMI (English Medium of Instruction) Schools.
+                        There are four main types of schools in Hong Kong: public local schools, <a href="https://itseducation.asia/school/hong-kong/private-schools-hk">private schools</a>, international schools and EMI (English Medium of Instruction) Schools.
                     </p>
 
                     <h2>Public Local Schools</h2>
@@ -53,12 +53,12 @@
 
                     <h2>International Schools</h2>
                     <p>
-                        Hong Kong boasts some of the best international schools in Asia. The government does not control these schools regarding curriculum and language options. These schools are top-rated and are the top choice for expatriate families. International schools can decide student admission, tuition fees, and course content. The schools deliver high-quality education and offer a wide range of curricula.
+                        Hong Kong boasts some of the best <a href="https://itseducation.asia/school/hong-kong/international-schools-hk">international schools in Asia</a>. The government does not control these schools regarding curriculum and language options. These schools are top-rated and are the top choice for expatriate families. International schools can decide student admission, tuition fees, and course content. The schools deliver high-quality education and offer a wide range of curricula.
                     </p>
 
                     <h2>English Medium of Instruction Schools</h2>
                     <p>
-                        EMI Public Schools are non-fee-paying schools, and English is the primary language of instruction. Even though all textbooks and reading material are in English, the teachers use Cantonese in oral education in some classes, for example, Sports and Arts Classes. If students struggle to understand certain concepts in English, teachers will use Cantonese.
+                        EMI Public Schools are non-fee-paying schools, and <a href="https://itseducation.asia/school/hong-kong/international-schools-hk/anglo-chinese-schools-hk">English is the primary language of instruction</a>. Even though all textbooks and reading material are in English, the teachers use Cantonese in oral education in some classes, for example, Sports and Arts Classes. If students struggle to understand certain concepts in English, teachers will use Cantonese.
                     </p>
                     <p>
                         Parents have many choices when choosing a Hong Kong school, but the best school is a personal choice. There is no ‘one size fits all’ approach to selecting a school. It is simply about personal core values, educational goals, and family situations. It is essential to plan and have valuable information on the schools.
