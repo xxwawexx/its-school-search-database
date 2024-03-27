@@ -62,7 +62,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="{{ config('app.main_url') }}">
+                            <a href="https://itseducation.asia/">
                                     <img alt="ITS LOGO" width="140" data-sticky-width="112" data-sticky-height="37" data-sticky-top="86" src="https://itseducation.asia/school/img/banner/main-logo.webp">
                             </a>
                         </div>

@@ -60,82 +60,82 @@
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/a-level-schools-in-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             GCE A Level Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk/anglo-chinese-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Anglo Chinese International Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/primary-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Primary Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/secondary-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Secondary Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/boarding-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Boarding Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk/british-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             British International Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk/american-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             American International Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk/ib-schools-sg" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             International Baccalaureate (IB) Schools in Singapore
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk/french-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             French International Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/igcse-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             IGCSE Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/independent-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Independent Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk/japanese-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Japanese International Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/edb-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Ministry of Education (MOE) Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/montessori-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Montessori Schools In Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/private-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Private Schools in Hong Kong
                         </a>
                     </li>
                     <li style="margin-bottom: 8px;">
-                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/international-schools-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
+                        <a class="text-light" href="{{ substr(config('app.main_url'), 0, -1) }}/school/hong-kong/special-school-hk" style="line-height: 1.7;color: #19C2FF !important;font-size: 0.85rem;">
                             Special School in Hong Kong
                         </a>
                     </li>
