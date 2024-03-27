@@ -19,19 +19,9 @@
                     <div class="col-md-12 align-self-center order-1">
                         <ul class="breadcrumb d-block">
                             <li>
-                            @if( url()->current() == "https://school.itseducation.asia/singapore/private-schools-sg")
-                                <a href="https://school.itseducation.asia/">Home</a>
-                            @else
-                                <a href="https://itseducation.asia/school/">Home</a>
-                            @endif
+                                <a href="{{ $urlBase }}">Home</a>
                             </li>
-
-                            @if( url()->current() == "https://school.itseducation.asia/singapore/private-schools-sg")
-                                <li><a href="https://school.itseducation.asia/singapore">Singapore</a></li>
-                            @else
-                                <li><a href="https://itseducation.asia/school/singapore">Singapore</a></li>
-                            @endif
-
+                            <li><a href="{{ $urlBase }}singapore">Singapore</a></li>
                             <li class="active">Private Schools in Singapore</li>
                         </ul>
                     </div>
@@ -89,14 +79,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/SDRy6a34Jx3GtsAU-primary.jpg); background-size: cover; background-position: center center;" alt="Singapore American School">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/SDRy6a34Jx3GtsAU-primary.webp); background-size: cover; background-position: center center;" alt="Singapore American School">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/private-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Singapore+American+School" class="btn btn-primary s-btn">Singapore American School</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Singapore+American+School" class="btn btn-primary s-btn">Singapore American School</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Singapore+American+School" class="btn btn-primary s-btn">Singapore American School</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -105,14 +91,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/3BauZBVLKtctP2Hs-primary.jpg); background-size: cover; background-position: center center;" alt="XCL World Academy">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/3BauZBVLKtctP2Hs-primary.webp); background-size: cover; background-position: center center;" alt="XCL World Academy">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/private-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/XCL+World+Academy" class="btn btn-primary s-btn">XCL World Academy</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/XCL+World+Academy" class="btn btn-primary s-btn">XCL World Academy</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/XCL+World+Academy" class="btn btn-primary s-btn">XCL World Academy</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -121,14 +103,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/p2wKV6M4XATWt6Ud-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus International School - Dempsey Campus">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/p2wKV6M4XATWt6Ud-primary.webp); background-size: cover; background-position: center center;" alt="Invictus International School - Dempsey Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/private-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Invictus+International+School+-+Dempsey+Campus" class="btn btn-primary s-btn">Invictus International School - Dempsey Campus</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Invictus+International+School+-+Dempsey+Campus" class="btn btn-primary s-btn">Invictus International School - Dempsey Campus</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Invictus+International+School+-+Dempsey+Campus" class="btn btn-primary s-btn">Invictus International School - Dempsey Campus</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -137,14 +115,10 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/B0XYnWE4vE1VRcfg-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus International School - Centrium Campus">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/B0XYnWE4vE1VRcfg-primary.webp); background-size: cover; background-position: center center;" alt="Invictus International School - Centrium Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/private-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Invictus+International+School+-+Centrium+Campus" class="btn btn-primary s-btn">Invictus International School - Centrium Campus</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Invictus+International+School+-+Centrium+Campus" class="btn btn-primary s-btn">Invictus International School - Centrium Campus</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Invictus+International+School+-+Centrium+Campus" class="btn btn-primary s-btn">Invictus International School - Centrium Campus</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -153,14 +127,22 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/5FAo1hRnhNUzzwu7-primary.jpg); background-size: cover; background-position: center center;" alt="Invictus International School - Sentosa Campus">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/5FAo1hRnhNUzzwu7-primary.webp); background-size: cover; background-position: center center;" alt="Invictus International School - Sentosa Campus">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                            @if( url()->current() == "https://school.itseducation.asia/singapore/private-schools-sg")
-                                                <p class="text-center m-1"><a href="https://school.itseducation.asia/school-profile/Invictus+International+School+-+Sentosa+Campus" class="btn btn-primary s-btn">Invictus International School - Sentosa Campus</a></p>
-                                            @else
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/school-profile/Invictus+International+School+-+Sentosa+Campus" class="btn btn-primary s-btn">Invictus International School - Sentosa Campus</a></p>
-                                            @endif
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Invictus+International+School+-+Sentosa+Campus" class="btn btn-primary s-btn">Invictus International School - Sentosa Campus</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-md-12">
+                                <div class="outer-box mx-auto my-2">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/kkcJeHMvWUFYozUk.webp); background-size: cover; background-position: center center;" alt="Dulwich College">
+                                        <div class="content-wrap">
+                                            <div class="sub-content-wrap">
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/Dulwich+College+(SINGAPORE)" class="btn btn-primary s-btn">Dulwich College</a></p>
                                             </div>
                                         </div>
                                     </div>
