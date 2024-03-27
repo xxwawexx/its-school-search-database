@@ -146,18 +146,6 @@
 
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/kDhQkS4Jb0YyIEFl-primary.png); background-size: cover; background-position: center center;">
-                                        <div class="content-wrap">
-                                            <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="https://itseducation.asia/school/hong-kong/international-schools-hk/british-schools-sg" class="btn btn-primary s-btn">British International Schools in Hong Kong</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4 col-md-12">
-                                <div class="outer-box mx-auto my-2">
                                     <div class="content-b-desc" style="background: url({{ $imageUrlBase }}school/AG6cn8nfonppXYGp-primary.webp); background-size: cover; background-position: center center;">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
