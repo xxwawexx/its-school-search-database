@@ -73,10 +73,10 @@
                         <div class="row s-countries">
                             <div class="col-xl-4 col-md-12">
                                 <div class="outer-box mx-auto my-2">
-                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/k1R3CzxPWz9H4fMs-primary.jpg); background-size: cover; background-position: center center;" alt="GESS">
+                                    <div class="content-b-desc" style="background: url(https://itseducation.asia/school/img/school/k1R3CzxPWz9H4fMs-primary.webp); background-size: cover; background-position: center center;" alt="GESS">
                                         <div class="content-wrap">
                                             <div class="sub-content-wrap">
-                                                <p class="text-center m-1"><a href="{{ $urlBase }}school/school-profile/GESS" class="btn btn-primary s-btn">GESS</a></p>
+                                                <p class="text-center m-1"><a href="{{ $urlBase }}school-profile/GESS" class="btn btn-primary s-btn">GESS</a></p>
                                             </div>
                                         </div>
                                     </div>
