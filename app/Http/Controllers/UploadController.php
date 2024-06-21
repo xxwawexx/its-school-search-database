@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\DB;
 use App\Models\School;
 use App\Models\Image;
@@ -36,12 +35,9 @@ class UploadController extends Controller
                 $schoolInfo = $school->info;
                 $newFilename = $this->generateUniqueFilename($originalFilename);
 
-                // Store files in a temporary location first
-                $tempPath = $file->storeAs('temp', $newFilename);
-
-                // Move files to the final destination
-                $finalPath = "img/school/{$newFilename}";
-                Storage::move($tempPath, "public/{$finalPath}");
+                // Directly move files to the final destination
+                $destinationPath = public_path('img/school');
+                $file->move($destinationPath, $newFilename);
 
                 // Store the new filename and details in the images table
                 Image::create([
@@ -52,7 +48,7 @@ class UploadController extends Controller
                     'more' => $schoolInfo,
                 ]);
 
-                $filePaths[] = $finalPath;
+                $filePaths[] = 'img/school/' . $newFilename;
             }
 
             DB::commit();
@@ -64,7 +60,9 @@ class UploadController extends Controller
 
             // Roll back any files that were moved
             foreach ($filePaths as $path) {
-                Storage::delete("public/{$path}");
+                if (file_exists(public_path($path))) {
+                    unlink(public_path($path));
+                }
             }
 
             return response()->json(['message' => $e->getMessage()], 400);
